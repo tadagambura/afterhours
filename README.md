@@ -2,7 +2,7 @@
 
 **Better questions for couples and friends**
 
-> #17 of 33 in the build order · Easy, content-heavy · Revenue potential: Medium–high · Social, Play & Style
+> #15 of 33 · Wave 2: Recurring keepers · Used: Weekly · Easy, content-heavy · Revenue potential: Medium–high · Social, Play & Style
 
 ## What it is
 
@@ -56,9 +56,13 @@ Built on **The Progression Loop**, the portfolio's shared retention framework
 | Next step | A new pack every month |
 | Cadence | Weekly ritual |
 
+## AI
+
+**Offline only.** AI helps draft question packs; a person curates them. No AI calls in the app.
+
 ## Watch-outs
 
-Question quality is everything: AI can draft, but a human must curate. Adult packs need an age gate and app-store policy checks.
+Question quality is everything: AI can draft, but a human must curate. Adult packs need an age gate and app-store policy checks. Similar apps exist (for example Candle), so the edge is the quality of the experience and the marketing.
 
 ## Status
 
