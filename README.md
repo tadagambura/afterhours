@@ -58,13 +58,15 @@ Built on **The Progression Loop**, the portfolio's shared retention framework
 | Next step | A new pack every month |
 | Cadence | Weekly ritual |
 
-## Animation and tone
+## Animation and tone: five signature animations
 
-**Full drama.** Duolingo-style theatrics: characters, big over-the-top reactions, sound effects, comic tragedy ('NOOOOOOO!!!! NOT CYPHICUS!!!!').
+**Full drama.** Duolingo-style theatrics: characters, big over-the-top reactions, sound effects. Thirsty's plant death is the only animation that takes over the full screen ('NOOOOOOO!!!! NOT CYPHICUS!!!!').
 
-- Cards flip with a dramatic music sting
-- The spicy deck is literally on fire
-- 'Answer privately, reveal together': a 3-2-1 countdown and a dun-dun-DUN reveal
+- Card flip: a dramatic music sting
+- Spicy deck: the deck is literally on fire, with a fire-extinguisher button
+- Reveal together: 3-2-1 and a dun-dun-DUN
+- New pack: the deck shuffles itself like a magician's
+- Favourite: a heart pops and floats up
 
 **Line we don't cross:** Playful, never embarrassing: reveals only happen when both people tap.
 
