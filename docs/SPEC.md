@@ -34,7 +34,7 @@ Swipeable question decks for first dates, couples, long-distance relationships, 
 | Paid packs | £1.99–£4.99 each |
 | Subscription | £3.99/month: every deck plus a new pack monthly |
 
-Prices are starting points; test before committing.
+Prices are starting points; test before committing. **Portfolio premium promise:** free has ads; the moment you pay you get no ads, cloud backup and storage, and sync across your devices, plus this app's extras.
 
 ## Retention: The Progression Loop
 
@@ -69,6 +69,7 @@ cheapest model, shared budget cap, premium-gated.)
 
 - **Platform:** Expo app; packs need in-app purchase (RevenueCat).
 - **Data:** On the device only; decks ship as content files.
+- **Backend:** Content delivery for new question packs. Premium backup and sync use the shared portfolio backend (see the master repo's HOSTING.md).
 - **Stack:** shared portfolio foundation (Expo, PostHog, RevenueCat, AdMob, shared Progression Loop module).
 
 ## Growth engine
