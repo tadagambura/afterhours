@@ -4,11 +4,13 @@ Question decks for couples, friends, first dates and deep conversations
 
 ## Status
 
-Planning. See [`docs/SPEC.md`](docs/SPEC.md).
+Planning. #5 of 15 in the portfolio build order (easy (content-heavy)). See [`docs/SPEC.md`](docs/SPEC.md).
 
 ## How it makes money
 
-_TBD, see SPEC._
+- **Free:** Starter decks, with ads
+- **Paid:** Packs £1.99–£3.99 each, or £3.99/month for everything
+- **Ads:** Between decks only
 
 ## Run locally
 
