@@ -1,6 +1,6 @@
 # AfterHours: Spec
 
-**Better questions for couples and friends** · #17 of 33 in the build order · Easy, content-heavy · Revenue potential: Medium–high · Social, Play & Style · Source: ChatGPT + Perplexity
+**Better questions for couples and friends** · #15 of 33 · Wave 2: Recurring keepers · Used: Weekly · Easy, content-heavy · Revenue potential: Medium–high · Social, Play & Style · Source: ChatGPT + Perplexity
 
 ## One-liner
 
@@ -50,6 +50,11 @@ Prices are starting points; test before committing.
 Follow the portfolio guardrails: no guilt-trip notifications, no fake urgency, progress is
 never wiped, at most one notification a day by default.
 
+## AI
+
+**Offline only.** AI helps draft question packs; a person curates them. No AI calls in the app. (Portfolio rule: plain code first, code does the maths,
+cheapest model, shared budget cap, premium-gated.)
+
 ## Platform & data
 
 - **Platform:** Expo app; packs need in-app purchase (RevenueCat).
@@ -63,7 +68,7 @@ never wiped, at most one notification a day by default.
 
 ## Risks
 
-Question quality is everything: AI can draft, but a human must curate. Adult packs need an age gate and app-store policy checks.
+Question quality is everything: AI can draft, but a human must curate. Adult packs need an age gate and app-store policy checks. Similar apps exist (for example Candle), so the edge is the quality of the experience and the marketing.
 
 ## Launch checklist
 
