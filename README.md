@@ -1,22 +1,70 @@
 # AfterHours
 
-Question decks for couples, friends, first dates and deep conversations
+**Better questions for couples and friends**
 
-## Status
+> #17 of 33 in the build order · Easy, content-heavy · Revenue potential: Medium–high · Social, Play & Style
 
-Planning. #5 of 15 in the portfolio build order (easy (content-heavy)). See [`docs/SPEC.md`](docs/SPEC.md).
+## What it is
+
+Swipeable question decks for first dates, couples, long-distance relationships, friends, family, road trips and parties. Optional 'answer privately, then reveal together' mode for couples.
+
+## Why it's in the portfolio
+
+A proven category with paid content packs and lots of social sharing. Packs are one-off purchases with high margins, and seasonal packs (Valentine's, Christmas) bring repeat sales.
+
+## Who it's for
+
+Couples, long-distance partners, friend groups, people who dislike small talk.
+
+**The problem:** Conversations get stale; people want prompts that go deeper or get a group laughing.
+
+## Version one
+
+- Swipeable question cards
+- Free starter decks: first date, couples, friends, party
+- Favourites and shuffle
+- Custom decks
+- 'Answer privately, reveal together' mode
+
+**Example:** A couple picks 'Date Night: 20 questions' and takes turns on the sofa; on Valentine's Day they buy the seasonal pack.
+
+## Later
+
+- Paid packs: date night, long distance, 18+ behind an age gate
+- All-access subscription with a new pack each month
+- Seasonal packs
 
 ## How it makes money
 
-- **Free:** Starter decks, with ads
-- **Paid:** Packs £1.99–£3.99 each, or £3.99/month for everything
-- **Ads:** Between decks only
+| Model | Detail |
+|---|---|
+| Free | Starter decks, with ads |
+| Paid packs | £1.99–£4.99 each |
+| Subscription | £3.99/month: every deck plus a new pack monthly |
 
-## Run locally
+## Why people come back
 
-_Added once the app is scaffolded._
+Built on **The Progression Loop**, the portfolio's shared retention framework
+(streaks with forgiveness, visible progress, milestones, recaps, no guilt-trips).
+
+| Stage | In AfterHours |
+|---|---|
+| Cue | Weekly date-night reminder (opt-in) |
+| Tiny win | Answer a card |
+| Progress | Decks completed |
+| Share | Question images ('Ask your partner this tonight') |
+| Next step | A new pack every month |
+| Cadence | Weekly ritual |
+
+## Watch-outs
+
+Question quality is everything: AI can draft, but a human must curate. Adult packs need an age gate and app-store policy checks.
+
+## Status
+
+Planning. The build spec is in [`docs/SPEC.md`](docs/SPEC.md).
 
 ---
 
-Part of the App Portfolio. Marketing runs through the shared
-[growth-engine](https://github.com/tadagambura/growth-engine).
+Part of a portfolio of 33 small consumer apps that share one codebase, one retention module
+and one marketing system ([growth-engine](https://github.com/tadagambura/growth-engine)).
