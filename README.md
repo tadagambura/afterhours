@@ -56,6 +56,16 @@ Built on **The Progression Loop**, the portfolio's shared retention framework
 | Next step | A new pack every month |
 | Cadence | Weekly ritual |
 
+## Animation and tone
+
+**Full drama.** Duolingo-style theatrics: characters, big over-the-top reactions, sound effects, comic tragedy ('NOOOOOOO!!!! NOT CYPHICUS!!!!').
+
+- Cards flip with a dramatic music sting
+- The spicy deck is literally on fire
+- 'Answer privately, reveal together': a 3-2-1 countdown and a dun-dun-DUN reveal
+
+**Line we don't cross:** Playful, never embarrassing: reveals only happen when both people tap.
+
 ## AI
 
 **Offline only.** AI helps draft question packs; a person curates them. No AI calls in the app.
