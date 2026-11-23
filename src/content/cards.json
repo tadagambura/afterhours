@@ -1,0 +1,640 @@
+{
+  "pack": "afterhours-cards-1",
+  "version": 1,
+  "checked": "2026-11-23",
+  "reviewed": false,
+  "cards": [
+    {
+      "id": "c01",
+      "topic": "Bids for connection",
+      "title": "Look at this!",
+      "body": "\"Ooh, look at that dog.\" \"Try this, I made it.\" A sigh while doing the washing up. Gottman calls these bids: small reaches for attention or connection. You can turn towards them, ignore them, or snap at them. In Gottman's research, happier couples turned towards each other's bids about 86% of the time, and unhappier couples about 33%.",
+      "quiz": {
+        "q": "In Gottman's research, roughly how often did happier couples turn towards bids?",
+        "options": [
+          "About 33% of the time",
+          "About 86% of the time",
+          "Every single time"
+        ],
+        "answer": 1,
+        "explain": "Happier couples turned towards bids around 86% of the time versus about 33% for unhappier couples. Nobody manages 100%, and that's fine."
+      },
+      "source": {
+        "name": "The Gottman Institute: Turning towards each other",
+        "url": "https://www.gottman.com/blog/turning-towards-each-other-for-a-thriving-relationship/"
+      },
+      "tags": [
+        "bids",
+        "gottman",
+        "connection"
+      ]
+    },
+    {
+      "id": "c02",
+      "topic": "Bids for connection",
+      "title": "Turning towards can take two seconds",
+      "body": "Turning towards doesn't need a grand gesture. Looking up from your phone, saying \"oh nice!\", asking a follow-up question. Gottman's team notes that when bids keep getting missed, people stop making them, and distance creeps in quietly. Try a phones-down moment when your partner starts telling you something. If you miss a bid, a quick \"sorry, say that again?\" repairs it.",
+      "quiz": null,
+      "source": {
+        "name": "The Gottman Institute: Small actions make big impacts",
+        "url": "https://www.gottman.com/blog/small-actions-make-big-impacts/"
+      },
+      "tags": [
+        "bids",
+        "attention",
+        "gottman"
+      ]
+    },
+    {
+      "id": "c03",
+      "topic": "Love languages",
+      "title": "Love languages: fun, not gospel",
+      "body": "The five love languages are a great conversation starter, but the evidence behind them is shaky. A 2024 review by Impett and colleagues looked at existing studies and found little support for the claims that everyone has one main language, that there are exactly five, or that matching languages makes couples happier. Most people value all five.",
+      "quiz": {
+        "q": "What did the 2024 review find about matching love languages?",
+        "options": [
+          "Matching guarantees a happy relationship",
+          "Only gifts matter",
+          "There was no good evidence that matching makes couples happier"
+        ],
+        "answer": 2,
+        "explain": "The review found little support for the idea that partners who share a love language have better relationships. Most people appreciate all kinds of love."
+      },
+      "source": {
+        "name": "University of Toronto (2024) on Impett, Park and Muise's review of love languages, Current Directions in Psychological Science",
+        "url": "https://www.utoronto.ca/news/little-evidence-linking-five-love-languages-healthy-relationships-researchers-say"
+      },
+      "tags": [
+        "love languages",
+        "evidence",
+        "myths"
+      ]
+    },
+    {
+      "id": "c04",
+      "topic": "Love languages",
+      "title": "Think balanced diet, not one language",
+      "body": "The same researchers suggest a better metaphor: a relationship needs a balanced diet. Kind words, time together, touch, help and thoughtful gestures, plus things the quiz leaves out, like backing each other's goals. And needs change over time. So instead of \"what's your language?\", try asking \"what would feel good this week?\"",
+      "quiz": null,
+      "source": {
+        "name": "University of Toronto (2024) on Impett, Park and Muise's review of love languages, Current Directions in Psychological Science",
+        "url": "https://www.utoronto.ca/news/little-evidence-linking-five-love-languages-healthy-relationships-researchers-say"
+      },
+      "tags": [
+        "love languages",
+        "needs",
+        "communication"
+      ]
+    },
+    {
+      "id": "c05",
+      "topic": "Repair",
+      "title": "Repair attempts: the argument's handbrake",
+      "body": "Every couple argues. What matters is whether you can stop it spiralling. Gottman calls these moves repair attempts: anything, silly or serious, that stops things escalating. A joke, a hand on the arm, \"OK, I'm getting snippy, can we restart?\" One couple in a Gottman article even throws a pretend referee's flag. Agree your own signal while you're both calm.",
+      "quiz": {
+        "q": "What is a 'repair attempt'?",
+        "options": [
+          "Anything that stops negativity escalating during conflict",
+          "Fixing something broken in the house",
+          "Proving you were right"
+        ],
+        "answer": 0,
+        "explain": "Repair attempts are words or actions, even silly ones, that stop an argument spiralling. Gottman sees successful repair as key to lasting relationships."
+      },
+      "source": {
+        "name": "The Gottman Institute: R is for repair",
+        "url": "https://www.gottman.com/blog/r-is-for-repair/"
+      },
+      "tags": [
+        "repair",
+        "conflict",
+        "gottman"
+      ]
+    },
+    {
+      "id": "c06",
+      "topic": "Conflict",
+      "title": "Start gently",
+      "body": "How a tricky conversation starts often decides how it ends. Gottman's antidote to criticism is a gentle start-up: describe what you feel and what you need, without blame. Not \"You never listen to me\", but \"I'm feeling a bit left out tonight. Can I tell you about my day?\" Same issue. Much better odds.",
+      "quiz": null,
+      "source": {
+        "name": "The Gottman Institute: The Four Horsemen, the antidotes",
+        "url": "https://www.gottman.com/blog/the-four-horsemen-the-antidotes/"
+      },
+      "tags": [
+        "conflict",
+        "communication",
+        "gottman"
+      ]
+    },
+    {
+      "id": "c07",
+      "topic": "Conflict",
+      "title": "Own your slice",
+      "body": "When we feel criticised, defending ourselves is instinct. Unfortunately it usually pours petrol on things. Gottman's antidote is taking responsibility for even a small part of the problem. \"You're right, I did leave it late. I still hate being rushed, but that's on me too.\" Owning your slice makes room for a compromise.",
+      "quiz": {
+        "q": "What is Gottman's antidote to defensiveness?",
+        "options": [
+          "Counter-attacking with their faults",
+          "Changing the subject",
+          "Taking responsibility for part of the problem"
+        ],
+        "answer": 2,
+        "explain": "Accepting responsibility for even part of the issue calms things down and opens the door to compromise."
+      },
+      "source": {
+        "name": "The Gottman Institute: The Four Horsemen, the antidotes",
+        "url": "https://www.gottman.com/blog/the-four-horsemen-the-antidotes/"
+      },
+      "tags": [
+        "conflict",
+        "defensiveness",
+        "gottman"
+      ]
+    },
+    {
+      "id": "c08",
+      "topic": "Conflict",
+      "title": "The 20-minute time-out",
+      "body": "Ever been so wound up you can't think straight? That's flooding, and it's when people shut down or say things they regret. Gottman suggests calling a break: say you're overwhelmed, agree when you'll come back, then do something soothing for at least 20 minutes. Music, a walk, a book. Rehearsing your best comeback in the shower doesn't count.",
+      "quiz": {
+        "q": "How long does Gottman suggest a calming break should last, at least?",
+        "options": [
+          "20 minutes",
+          "2 minutes",
+          "A whole week"
+        ],
+        "answer": 0,
+        "explain": "Gottman suggests at least 20 minutes of something soothing so your body can calm down before you return to the conversation."
+      },
+      "source": {
+        "name": "The Gottman Institute: The Four Horsemen, the antidotes",
+        "url": "https://www.gottman.com/blog/the-four-horsemen-the-antidotes/"
+      },
+      "tags": [
+        "conflict",
+        "self-soothing",
+        "gottman"
+      ]
+    },
+    {
+      "id": "c09",
+      "topic": "Conflict",
+      "title": "Eye-rolls are expensive",
+      "body": "Gottman describes four patterns that predict trouble: criticism, contempt, defensiveness and stonewalling. Contempt (mockery, sarcasm, name-calling, eye-rolling, acting superior) is the most damaging of the lot. The antidote is building a culture of appreciation and respect, lots of small thank-yous and kindnesses, so warmth is the default even when you disagree.",
+      "quiz": {
+        "q": "Which of Gottman's 'Four Horsemen' is seen as the most damaging?",
+        "options": [
+          "Defensiveness",
+          "Contempt",
+          "Stonewalling"
+        ],
+        "answer": 1,
+        "explain": "Contempt, like mockery or eye-rolling, is described as the strongest predictor of relationship breakdown. Appreciation and respect are the antidote."
+      },
+      "source": {
+        "name": "The Gottman Institute: The Four Horsemen",
+        "url": "https://www.gottman.com/blog/the-four-horsemen-recognizing-criticism-contempt-defensiveness-and-stonewalling/"
+      },
+      "tags": [
+        "conflict",
+        "contempt",
+        "gottman"
+      ]
+    },
+    {
+      "id": "c10",
+      "topic": "Conflict",
+      "title": "Five good for every bad, even mid-row",
+      "body": "Gottman and Levenson's research found that stable, happy couples had at least five positive interactions for every negative one while they were arguing. Positive here means interest, affection, humour, empathy, saying sorry, validating the other person's view. Anger itself isn't the problem. It's criticism and contempt alongside it that do the damage.",
+      "quiz": null,
+      "source": {
+        "name": "The Gottman Institute: The magic relationship ratio",
+        "url": "https://www.gottman.com/blog/the-magic-relationship-ratio-according-science/"
+      },
+      "tags": [
+        "conflict",
+        "positivity",
+        "gottman"
+      ]
+    },
+    {
+      "id": "c11",
+      "topic": "Listening",
+      "title": "Listen like you're on their side",
+      "body": "After a rough day, most of us don't want solutions. We want an ally. Gottman suggests a regular stress-reducing chat: one person offloads about outside stress, the other listens, asks questions, shows empathy and makes it clear they're on their team. Save the advice unless it's asked for. \"That sounds exhausting\" often helps more than a five-point plan.",
+      "quiz": {
+        "q": "In a stress-reducing conversation, what's the listener's main job?",
+        "options": [
+          "Fix the problem as fast as possible",
+          "Point out what the speaker did wrong",
+          "Show empathy and that they're on the speaker's side"
+        ],
+        "answer": 2,
+        "explain": "The aim is to listen, ask questions and show you're on their side. Unrequested advice can feel like criticism."
+      },
+      "source": {
+        "name": "The Gottman Institute: Small actions make big impacts",
+        "url": "https://www.gottman.com/blog/small-actions-make-big-impacts/"
+      },
+      "tags": [
+        "listening",
+        "support",
+        "gottman"
+      ]
+    },
+    {
+      "id": "c12",
+      "topic": "Appreciation",
+      "title": "Say the nice thought out loud",
+      "body": "You probably think appreciative things about your partner more often than you say them. Gottman suggests making a habit of voicing them: thanking them for something specific, naming a quality you love, noticing the boring jobs they do. It's easy to slip into only noticing what's wrong. Saying what's right is free, quick and it works.",
+      "quiz": null,
+      "source": {
+        "name": "The Gottman Institute: Small actions make big impacts",
+        "url": "https://www.gottman.com/blog/small-actions-make-big-impacts/"
+      },
+      "tags": [
+        "appreciation",
+        "rituals",
+        "gottman"
+      ]
+    },
+    {
+      "id": "c13",
+      "topic": "Rituals",
+      "title": "Hellos and goodbyes matter",
+      "body": "Gottman's rituals of connection start small. Before you part in the morning, learn one thing your partner is doing that day. Make the goodbye kiss last longer than a peck. When you reunite, take a few minutes to swap how the day went before diving into logistics. Tiny routines, repeated, make a couple feel like a team.",
+      "quiz": {
+        "q": "What's one 'parting' ritual Gottman suggests?",
+        "options": [
+          "Learning one thing your partner is doing that day",
+          "Checking their location",
+          "Leaving without saying goodbye"
+        ],
+        "answer": 0,
+        "explain": "Knowing one thing about each other's day, plus a proper goodbye, keeps you connected even when life is busy."
+      },
+      "source": {
+        "name": "The Gottman Institute: Small actions make big impacts",
+        "url": "https://www.gottman.com/blog/small-actions-make-big-impacts/"
+      },
+      "tags": [
+        "rituals",
+        "connection",
+        "gottman"
+      ]
+    },
+    {
+      "id": "c14",
+      "topic": "Date night",
+      "title": "Date night doesn't need a booking",
+      "body": "Date nights can be cheap and cheerful. The Gottman Institute's ideas include a board game, cooking a new recipe together, swapping favourite films, making a photo scrapbook, a living-room dance party, and drawing each other without looking at the paper (results may be unflattering). The point isn't the activity. It's attention on each other, not on kids, work or chores.",
+      "quiz": null,
+      "source": {
+        "name": "The Gottman Institute: 25 date ideas you can try at home and long-distance",
+        "url": "https://www.gottman.com/blog/25-dates-you-can-try-at-home/"
+      },
+      "tags": [
+        "date night",
+        "fun",
+        "ideas"
+      ]
+    },
+    {
+      "id": "c15",
+      "topic": "Long distance",
+      "title": "Love at a distance",
+      "body": "Long distance is hard, but Gottman's team suggests it can build real skills. Use video so you can see faces. Share the small, boring details of your day, not just highlights. Keep asking about each other's inner world. Keep a realistic picture of your partner rather than a pedestal one. And make shared rituals, like cooking the same meal over a video call.",
+      "quiz": {
+        "q": "Why does Gottman's team recommend video calls in long-distance relationships?",
+        "options": [
+          "They're cheaper than texting",
+          "You can see each other's faces and body language",
+          "They replace the need to talk about feelings"
+        ],
+        "answer": 1,
+        "explain": "Seeing facial expressions and body language restores some of what distance takes away, helping you feel closer."
+      },
+      "source": {
+        "name": "The Gottman Institute: The digital age, long-distance relationships",
+        "url": "https://www.gottman.com/blog/long-distance-relationships/"
+      },
+      "tags": [
+        "long distance",
+        "communication",
+        "gottman"
+      ]
+    },
+    {
+      "id": "c16",
+      "topic": "Mental load",
+      "title": "Share the thinking, not just the doing",
+      "body": "\"Just tell me what needs doing\" sounds helpful, but it leaves one person as household project manager. Gottman's team suggests mapping out every responsibility together, including the planning and remembering, then moving whole tasks across where it makes sense. Owning a job means noticing, planning and finishing it. And thank whoever has been carrying the invisible bits.",
+      "quiz": {
+        "q": "What does Gottman's team suggest as a first step to sharing the mental load?",
+        "options": [
+          "Map out all the responsibilities together",
+          "Wait to be asked",
+          "Use a bigger calendar and say nothing"
+        ],
+        "answer": 0,
+        "explain": "Listing all the tasks, including the planning and remembering, makes invisible work visible so it can be shared fairly."
+      },
+      "source": {
+        "name": "The Gottman Institute: Relationship burnout",
+        "url": "https://www.gottman.com/blog/relationship-burnout/"
+      },
+      "tags": [
+        "mental load",
+        "fairness",
+        "teamwork"
+      ]
+    },
+    {
+      "id": "c17",
+      "topic": "Mental load",
+      "title": "The invisible half of housework",
+      "body": "Sociologist Allison Daminger interviewed 35 couples and described \"cognitive labour\": anticipating needs, working out options, making decisions and keeping an eye on whether things got done. It's tiring and often invisible, even to the person doing it, and it causes plenty of rows. In her study, women did more of the anticipating and monitoring. Spotting it is half the battle.",
+      "quiz": null,
+      "source": {
+        "name": "Daminger (2019), The cognitive dimension of household labor, American Sociological Review",
+        "url": "https://doi.org/10.1177/0003122419859007"
+      },
+      "tags": [
+        "mental load",
+        "research",
+        "fairness"
+      ]
+    },
+    {
+      "id": "c18",
+      "topic": "Apologising",
+      "title": "A proper sorry has three parts",
+      "body": "\"Sorry you feel that way\" is not an apology. Gottman's team describes a fuller version: own what you did, show you regret it and offer to put it right, then commit to doing better. The other half matters too: the hurt partner accepting the apology and letting it go. Then reset, maybe with a hug, so small grievances don't pile up.",
+      "quiz": {
+        "q": "Which is part of a good apology, according to Gottman's team?",
+        "options": [
+          "Explaining why it was really their fault",
+          "Saying sorry as fast as possible to end the chat",
+          "Owning what you did and committing to do better"
+        ],
+        "answer": 2,
+        "explain": "A mindful apology owns the mistake, offers to make amends and commits to change. Forgiveness and a reset complete the repair."
+      },
+      "source": {
+        "name": "The Gottman Institute: The art of the mindful apology",
+        "url": "https://www.gottman.com/blog/the-art-of-the-mindful-apology-why-sorry-is-not-enough/"
+      },
+      "tags": [
+        "apologising",
+        "repair",
+        "gottman"
+      ]
+    },
+    {
+      "id": "c19",
+      "topic": "Better questions",
+      "title": "Swap 'how was your day?' for better questions",
+      "body": "In a 1997 study, psychologist Arthur Aron and colleagues had pairs of strangers take turns answering 36 questions that got gradually more personal. They ended up feeling closer than pairs who just made small talk. Couples can borrow the idea: take turns, start light, go deeper. Skip any question that doesn't feel safe or comfortable.",
+      "quiz": {
+        "q": "What made Aron's 36 questions build closeness?",
+        "options": [
+          "Questions that got gradually more personal, answered in turns",
+          "Talking only about the weather",
+          "One person answering all the questions"
+        ],
+        "answer": 0,
+        "explain": "Taking turns with gradually deeper questions built more closeness than small talk did. Matching each other's openness seems to matter."
+      },
+      "source": {
+        "name": "Greater Good in Action (UC Berkeley): 36 questions for increasing closeness, based on Aron et al. (1997)",
+        "url": "https://ggia.berkeley.edu/practice/36_questions_for_increasing_closeness"
+      },
+      "tags": [
+        "questions",
+        "closeness",
+        "conversation"
+      ]
+    },
+    {
+      "id": "c20",
+      "topic": "Love and expectations",
+      "title": "Explain, don't expect mind-reading",
+      "body": "Early on, it can feel like your partner just gets you. The School of Life warns that this can turn into a trap: we start expecting them to know what's wrong without being told, and sulk when they don't. Even the most devoted partner isn't a mind-reader. Saying what you need, kindly and clearly, isn't unromantic. It's how love keeps working.",
+      "quiz": null,
+      "source": {
+        "name": "Inspired by The School of Life, 'Love and Sulking'",
+        "url": "https://www.theschooloflife.com/article/love-and-sulking/"
+      },
+      "tags": [
+        "communication",
+        "expectations",
+        "school of life"
+      ]
+    },
+    {
+      "id": "c21",
+      "topic": "Desire",
+      "title": "Desire grows in appreciation",
+      "body": "Keeping attraction alive in a long relationship isn't just about novelty. A Gottman article links lasting desire with trust and appreciation: noticing what your partner does right, saying it out loud, and not comparing them to an imaginary better option. It also suggests gently raising awkward feelings, like feeling less attractive, rather than avoiding them.",
+      "quiz": {
+        "q": "What does the Gottman article link with lasting desire?",
+        "options": [
+          "Comparing your partner to others",
+          "Trust and regular appreciation",
+          "Never talking about feelings"
+        ],
+        "answer": 1,
+        "explain": "The article ties long-term attraction to trust, noticing the good in your partner and voicing appreciation, rather than comparing."
+      },
+      "source": {
+        "name": "The Gottman Institute: Desire in a long-term relationship (part III)",
+        "url": "https://www.gottman.com/blog/desire-in-a-long-term-relationship-part-iii/"
+      },
+      "tags": [
+        "desire",
+        "appreciation",
+        "gottman"
+      ]
+    },
+    {
+      "id": "c22",
+      "topic": "Desire",
+      "title": "Intimacy is bigger than sex",
+      "body": "Relate reminds couples that there are lots of ways to be close: cuddling, kissing, time alone together, talking about what feels intimate to each of you. If things have gone quiet, it suggests rebuilding closeness gradually without pressure. There's no \"normal\" amount, either. What matters is what works for both of you, and talking about it when it doesn't.",
+      "quiz": null,
+      "source": {
+        "name": "Relate: 80 relationship tips",
+        "url": "https://www.relate.org.uk/get-help/80-relationship-tips"
+      },
+      "tags": [
+        "intimacy",
+        "desire",
+        "communication"
+      ]
+    },
+    {
+      "id": "c23",
+      "topic": "Growing together",
+      "title": "Love includes a bit of teaching",
+      "body": "The School of Life points to the Ancient Greek idea that partners can help each other become better versions of themselves, taking turns as teacher and student. The catch is that nobody learns while being humiliated. So if you want to raise something, be calm, kind and patient. And when it's your turn to hear feedback, try not to treat it as an attack on love.",
+      "quiz": null,
+      "source": {
+        "name": "Inspired by The School of Life, 'Teaching and Love'",
+        "url": "https://www.theschooloflife.com/article/teaching-and-love/"
+      },
+      "tags": [
+        "growth",
+        "feedback",
+        "school of life"
+      ]
+    },
+    {
+      "id": "c24",
+      "topic": "Conflict",
+      "title": "Say it within the half hour",
+      "body": "Loudly doing the washing-up they forgot, with extra sighs? The School of Life calls that sort of thing \"games playing\": hiding hurt and hoping for guilt. Its suggestion is simpler and braver: tell your partner, politely, that something upset you, ideally soon after it happens. Small, honest complaints stop big resentments forming.",
+      "quiz": {
+        "q": "What does the School of Life suggest instead of 'games playing'?",
+        "options": [
+          "Waiting for them to notice",
+          "Politely saying what upset you, soon after",
+          "Keeping score for later"
+        ],
+        "answer": 1,
+        "explain": "Saying what hurt, kindly and promptly, prevents the slow build-up of resentment that indirect hints create."
+      },
+      "source": {
+        "name": "Inspired by The School of Life, 'Why We Play Games in Love'",
+        "url": "https://www.theschooloflife.com/article/why-we-play-games-in-love/"
+      },
+      "tags": [
+        "conflict",
+        "honesty",
+        "school of life"
+      ]
+    },
+    {
+      "id": "c25",
+      "topic": "Communication",
+      "title": "Big talks go better on a walk",
+      "body": "Got something tricky to discuss? Relate suggests heading to a quiet café or, better still, going for a walk. Even reluctant talkers often find it easier side by side than sitting face to face in the living room. Bonus: if it gets tense, there's scenery to look at and an obvious way to cool off.",
+      "quiz": {
+        "q": "Where does Relate suggest having a tricky conversation?",
+        "options": [
+          "Over text at midnight",
+          "In front of friends",
+          "On a walk or in a quiet café"
+        ],
+        "answer": 2,
+        "explain": "Being side by side and on the move can make it easier, especially for people who find talking face to face hard."
+      },
+      "source": {
+        "name": "Relate: 80 relationship tips",
+        "url": "https://www.relate.org.uk/get-help/80-relationship-tips"
+      },
+      "tags": [
+        "communication",
+        "difficult conversations"
+      ]
+    },
+    {
+      "id": "c26",
+      "topic": "Check-ins",
+      "title": "Book your relationship an MOT",
+      "body": "You service your car, so why not your relationship? Relate suggests an annual check-in where you talk about what you want from the relationship now and in the future. What's working? What's creaking? What do you want more of next year? If it's hard to do alone, that's exactly what couples counselling is for.",
+      "quiz": null,
+      "source": {
+        "name": "Relate: 80 relationship tips",
+        "url": "https://www.relate.org.uk/get-help/80-relationship-tips"
+      },
+      "tags": [
+        "check-ins",
+        "planning",
+        "communication"
+      ]
+    },
+    {
+      "id": "c27",
+      "topic": "Friendships",
+      "title": "Your partner can't be your everything",
+      "body": "The NHS lists connecting with other people as one of five steps to better mental wellbeing: good relationships build belonging and give support both ways. A partner can't be best friend, therapist, entertainment and life coach all at once. Keeping friendships going takes pressure off the relationship and gives you more to bring back to it.",
+      "quiz": {
+        "q": "Connecting with other people is one of the NHS's how many steps to mental wellbeing?",
+        "options": [
+          "Five",
+          "Three",
+          "Ten"
+        ],
+        "answer": 0,
+        "explain": "The NHS lists five steps: connect with others, be active, learn new skills, help others, and pay attention to the present moment."
+      },
+      "source": {
+        "name": "NHS: 5 steps to mental wellbeing",
+        "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing/"
+      },
+      "tags": [
+        "friendships",
+        "wellbeing",
+        "connection"
+      ]
+    },
+    {
+      "id": "c28",
+      "topic": "Friendships",
+      "title": "Friendship needs give and take",
+      "body": "Relate's tips on friendship: aim for balance in who talks and who listens, and who makes the plans. Keep in touch even with a quick \"thinking of you\" message. And if a misunderstanding is festering, have the awkward conversation, because it beats losing a friend. Some people have one close friend, some have ten. Both are fine.",
+      "quiz": null,
+      "source": {
+        "name": "Relate: 80 relationship tips",
+        "url": "https://www.relate.org.uk/get-help/80-relationship-tips"
+      },
+      "tags": [
+        "friendships",
+        "balance",
+        "communication"
+      ]
+    },
+    {
+      "id": "c29",
+      "topic": "Love and expectations",
+      "title": "The unglamorous stuff is romantic too",
+      "body": "The School of Life argues that Romantic ideals taught us to see money, chores and timekeeping as unromantic. Its \"Classical\" alternative takes them seriously: talking about money early, accepting that neither of you is perfect, and seeing a long chat about towels on the floor as a real act of love. Spreadsheets and swoons can co-exist.",
+      "quiz": {
+        "q": "What does the School of Life's 'Classical' view of love encourage?",
+        "options": [
+          "Never discussing money",
+          "Taking practical things like money and chores seriously",
+          "Expecting your partner to be perfect"
+        ],
+        "answer": 1,
+        "explain": "The idea is that practical conversations aren't a betrayal of love. Handling them well is part of what makes love last."
+      },
+      "source": {
+        "name": "Inspired by The School of Life, 'How Romanticism Ruined Love'",
+        "url": "https://www.theschooloflife.com/article/how-romanticism-ruined-love/"
+      },
+      "tags": [
+        "expectations",
+        "practicalities",
+        "school of life"
+      ]
+    },
+    {
+      "id": "c30",
+      "topic": "Acceptance",
+      "title": "Know them, flaws and all",
+      "body": "The School of Life suggests that being praised feels nice, but being known feels safer: someone seeing your moodiness or anxiety and still treating you with patience and humour. You can offer that too. Next time your partner is at their least impressive, try remembering they're probably stressed, not evil. A fond nickname beats a fresh grievance.",
+      "quiz": null,
+      "source": {
+        "name": "Inspired by The School of Life, 'What We Really, Really Want in Love'",
+        "url": "https://www.theschooloflife.com/article/what-we-really-really-want-in-love/"
+      },
+      "tags": [
+        "acceptance",
+        "kindness",
+        "school of life"
+      ]
+    }
+  ]
+}

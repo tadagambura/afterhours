@@ -1,4 +1,6 @@
 import { router } from 'expo-router';
+import { CardLibrary, type CardPack } from '@/kit/cards';
+import cardsRaw from '@/content/cards.json';
 import { formatDay } from '@/kit/dates';
 import { Card, H1, Muted, Row, Screen, Section, Stack, Strong } from '@/kit/ui';
 import { quizScore } from '@/domain/play';
@@ -16,6 +18,10 @@ export default function Quizzes() {
           <Muted>{q.description}</Muted>
         </Card>
       ))}
+      <Section title="Being a better partner">
+        <Muted>Short cards on connection. Inspired by The School of Life and relationship research, in our own words.</Muted>
+        <CardLibrary pack={cardsRaw as CardPack} app="afterhours" />
+      </Section>
       {runs.length ? (
         <Section title="Past results">
           <Stack gap={6}>
