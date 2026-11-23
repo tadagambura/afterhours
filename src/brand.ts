@@ -5,6 +5,7 @@ export const brand: Brand = {
   name: 'AfterHours',
   tagline: 'Better questions for couples and friends',
   fonts: { display: 'DMSerifDisplay_400Regular' },
+  defaultTheme: 'pink',
   radius: 18,
   light: {
     bg: '#FBF5F1',
