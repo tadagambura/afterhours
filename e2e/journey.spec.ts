@@ -81,3 +81,30 @@ test('custom deck: create, play, and it persists', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByTestId('deck-Anniversary')).toContainText('Anniversary (3)');
 });
+
+test('Together: tic-tac-toe and four in a row on one phone, wins tallied; calendar plans persist', async ({ page }) => {
+  await page.goto('/');
+  await finishIntro(page);
+  await page.getByRole('tab', { name: /Together/ }).click();
+  await page.getByTestId('name-a').fill('Sam');
+  await page.getByTestId('name-b').fill('Alex');
+  await page.getByTestId('game-ttt').click();
+  for (const i of [0, 3, 1, 4, 2]) await page.getByTestId(`ttt-${i}`).click();
+  await expect(page.getByTestId('ttt-status')).toHaveText('Sam wins!');
+  await page.goBack();
+  await page.getByTestId('game-c4').click();
+  for (const col of [0, 1, 0, 1, 0, 1, 0]) await page.getByTestId(`c4-col-${col}`).click();
+  await expect(page.getByTestId('c4-status')).toHaveText('Sam wins!');
+  await page.goBack();
+  await expect(page.getByTestId('tally-ttt')).toHaveText('Sam 1 – 0 Alex');
+  await expect(page.getByTestId('tally-c4')).toHaveText('Sam 1 – 0 Alex');
+  await page.getByTestId('plan-add').click();
+  await page.getByTestId('plan-title').fill('Date night: tapas');
+  await page.getByTestId('plan-time').fill('7pm');
+  await expect(page.getByTestId('plan-save')).toBeDisabled();
+  await page.getByTestId('plan-time').fill('19:30');
+  await page.getByTestId('plan-save').click();
+  await page.reload();
+  await page.getByRole('tab', { name: /Together/ }).click();
+  await expect(page.getByTestId('plan-Date night: tapas')).toContainText('19:30');
+});
