@@ -30,10 +30,13 @@ export function shuffle<T>(items: T[], seed: number): T[] {
 
 export const kindLabel = (k: Card['kind']) => (k === 'wyr' ? 'Would you rather' : k === 'finish' ? 'Finish the sentence' : 'Question');
 
-/** Decks a person can open right now. Spicy needs Premium and an 18+ confirmation. */
-export function canOpen(d: Deck, premium: boolean, adult: boolean): 'ok' | 'premium' | 'age' {
+/**
+ * Decks a person can open right now. Explicit (spice 2) decks need Premium AND a passed 18+
+ * check (`adultOk` comes from the kit's useAdultAccess). Flirty decks (spice 1) are free.
+ */
+export function canOpen(d: Deck, premium: boolean, adultOk: boolean): 'ok' | 'premium' | 'age' {
   if (!d.free && !premium && !d.custom) return 'premium';
-  if (d.spice === 2 && !adult) return 'age';
+  if (d.spice === 2 && !adultOk) return 'age';
   return 'ok';
 }
 
