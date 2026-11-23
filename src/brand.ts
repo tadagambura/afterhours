@@ -39,10 +39,6 @@ export const brand: Brand = {
     danger: '#FF8A80',
     focus: '#E9A6D6',
   },
-  plans: [
-    { id: 'yearly', label: 'Yearly', price: '£24.99 a year', note: 'Best value: every deck, plus a new pack each month' },
-    { id: 'monthly', label: 'Monthly', price: '£3.49 a month' },
-  ],
   premiumPerks: ['All 9 decks, including Deep Talk, Road Trip and Turn Up The Heat', 'A new pack every month', 'Unlimited custom decks', 'No ads, ever'],
   privacyUrl: 'https://kaoticchainz.com/privacy',
   termsUrl: 'https://kaoticchainz.com/terms',
