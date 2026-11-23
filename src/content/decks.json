@@ -1,0 +1,2072 @@
+{
+  "version": 1,
+  "reviewed": false,
+  "decks": [
+    {
+      "id": "first-date",
+      "name": "First Date",
+      "description": "Easy, curious questions for getting to know someone new, minus the job-interview feeling.",
+      "audience": "dates",
+      "spice": 0,
+      "free": true,
+      "cards": [
+        {
+          "id": "first-date-01",
+          "text": "What's something you've got really into lately?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-02",
+          "text": "What does a perfect lazy Sunday look like for you?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-03",
+          "text": "What's the best thing that happened to you this week?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-04",
+          "text": "Which place have you been to that you'd happily go back to tomorrow?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-05",
+          "text": "What were you completely obsessed with as a kid?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-06",
+          "text": "What's a skill you'd love to learn if time and money didn't matter?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-07",
+          "text": "Are you a planner, or more of a 'see where the day takes us' person?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-08",
+          "text": "What's your go-to takeaway order, and are you a sharer?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-09",
+          "text": "Who's someone who made a big difference in your life?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-10",
+          "text": "What's a small thing that instantly puts you in a good mood?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-11",
+          "text": "What's the most spontaneous thing you've ever done?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-12",
+          "text": "What's a film or series you could rewatch forever?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-13",
+          "text": "What job did you want when you were ten?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-14",
+          "text": "What's something people are often surprised to learn about you?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-15",
+          "text": "Morning person, night owl, or neither until you've had a coffee?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-16",
+          "text": "What's the best piece of advice anyone has ever given you?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-17",
+          "text": "What would your friends say is your best quality?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-18",
+          "text": "What's a song that always takes you straight back to a certain time?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-19",
+          "text": "Beach, city, mountains or something else: what's your ideal holiday?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-20",
+          "text": "What's something you're quietly proud of?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-21",
+          "text": "What's a hobby you tried and gave up on? What happened?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-22",
+          "text": "If you could master one cuisine overnight, which would you choose?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-23",
+          "text": "What's on your list of things to do before next summer?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-24",
+          "text": "What's the most interesting thing you've read, watched or heard recently?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-25",
+          "text": "What's your favourite way to spend an evening with friends?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-26",
+          "text": "What's a family tradition you'd like to keep going?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-27",
+          "text": "What's a little everyday luxury you refuse to give up?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-28",
+          "text": "What's one thing on your bucket list that might surprise me?",
+          "kind": "question"
+        },
+        {
+          "id": "first-date-29",
+          "text": "Would you rather have a picnic in the park or dinner somewhere fancy?",
+          "kind": "wyr"
+        },
+        {
+          "id": "first-date-30",
+          "text": "Would you rather explore a new city on foot or by bike?",
+          "kind": "wyr"
+        },
+        {
+          "id": "first-date-31",
+          "text": "Would you rather be fluent in every language or able to play any instrument you pick up?",
+          "kind": "wyr"
+        },
+        {
+          "id": "first-date-32",
+          "text": "Would you rather live by the sea or right in the middle of a big city?",
+          "kind": "wyr"
+        },
+        {
+          "id": "first-date-33",
+          "text": "Would you rather have a fully booked weekend or a completely empty one?",
+          "kind": "wyr"
+        },
+        {
+          "id": "first-date-34",
+          "text": "Would you rather spend a day in the 1920s or a day in the year 2100?",
+          "kind": "wyr"
+        },
+        {
+          "id": "first-date-35",
+          "text": "The best compliment I've ever received was...",
+          "kind": "finish"
+        },
+        {
+          "id": "first-date-36",
+          "text": "I could talk for hours about...",
+          "kind": "finish"
+        },
+        {
+          "id": "first-date-37",
+          "text": "My friends would describe me in three words as...",
+          "kind": "finish"
+        },
+        {
+          "id": "first-date-38",
+          "text": "I always say yes when someone invites me to...",
+          "kind": "finish"
+        },
+        {
+          "id": "first-date-39",
+          "text": "Something I'm really looking forward to this year is...",
+          "kind": "finish"
+        },
+        {
+          "id": "first-date-40",
+          "text": "The last thing that made me laugh out loud was...",
+          "kind": "finish"
+        }
+      ]
+    },
+    {
+      "id": "couples",
+      "name": "Couples",
+      "description": "Playful, heartfelt prompts to learn something new about your person, however long you've been together.",
+      "audience": "couples",
+      "spice": 1,
+      "free": true,
+      "cards": [
+        {
+          "id": "couples-01",
+          "text": "What's your favourite memory of us so far?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-02",
+          "text": "When did you first realise you really liked me?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-03",
+          "text": "What's something small I do that makes you feel loved?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-04",
+          "text": "What's a date we haven't done yet that you'd love to try?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-05",
+          "text": "What's my most adorable bad habit?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-06",
+          "text": "Which song feels like 'our song', even if we've never said so?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-07",
+          "text": "What's something you'd like us to get better at together?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-08",
+          "text": "If we had a free weekend and £200, what would you plan for us?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-09",
+          "text": "What did you think of me the first time we met? Be honest.",
+          "kind": "question"
+        },
+        {
+          "id": "couples-10",
+          "text": "What's one thing about me you'd happily brag about to a stranger?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-11",
+          "text": "What's a tiny everyday moment with me that you secretly love?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-12",
+          "text": "Where would you take me for a surprise day out?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-13",
+          "text": "What's the best present I've ever given you, and why?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-14",
+          "text": "How do you most like to be looked after when you've had a rough day?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-15",
+          "text": "What have you learned about yourself since we got together?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-16",
+          "text": "What's a tradition you'd like us to start?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-17",
+          "text": "Which of my friends or family do you get on with best?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-18",
+          "text": "When were you really proud of me?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-19",
+          "text": "What's a compliment you've thought about me but never said out loud?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-20",
+          "text": "If our relationship had a theme tune, what would it be?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-21",
+          "text": "What's the silliest thing we've ever argued about?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-22",
+          "text": "What's your idea of a properly romantic evening in?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-23",
+          "text": "Which outfit of mine is your favourite?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-24",
+          "text": "Where in the world would you love us to live, even just for a year?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-25",
+          "text": "When do you feel closest to me?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-26",
+          "text": "What's something you'd like more of from me this month?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-27",
+          "text": "What's the cheesiest thing about us that you secretly enjoy?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-28",
+          "text": "Which famous film couple are we most like?",
+          "kind": "question"
+        },
+        {
+          "id": "couples-29",
+          "text": "Would you rather have breakfast in bed or a candlelit dinner?",
+          "kind": "wyr"
+        },
+        {
+          "id": "couples-30",
+          "text": "Would you rather slow dance in the kitchen or go out dancing all night?",
+          "kind": "wyr"
+        },
+        {
+          "id": "couples-31",
+          "text": "Would you rather relive our first date or skip ahead to see us in ten years?",
+          "kind": "wyr"
+        },
+        {
+          "id": "couples-32",
+          "text": "Would you rather get a handwritten love letter or a surprise weekend away?",
+          "kind": "wyr"
+        },
+        {
+          "id": "couples-33",
+          "text": "Would you rather we learned to dance together or learned to cook a new cuisine?",
+          "kind": "wyr"
+        },
+        {
+          "id": "couples-34",
+          "text": "Would you rather have a cosy night in or a big night out with me?",
+          "kind": "wyr"
+        },
+        {
+          "id": "couples-35",
+          "text": "The moment I knew you were special was...",
+          "kind": "finish"
+        },
+        {
+          "id": "couples-36",
+          "text": "You always make me smile when you...",
+          "kind": "finish"
+        },
+        {
+          "id": "couples-37",
+          "text": "If I could relive one day with you, it would be...",
+          "kind": "finish"
+        },
+        {
+          "id": "couples-38",
+          "text": "You look most attractive when you...",
+          "kind": "finish"
+        },
+        {
+          "id": "couples-39",
+          "text": "One thing I'd love us to do before the year is out is...",
+          "kind": "finish"
+        },
+        {
+          "id": "couples-40",
+          "text": "I feel most looked after by you when...",
+          "kind": "finish"
+        }
+      ]
+    },
+    {
+      "id": "friends",
+      "name": "Friends",
+      "description": "Questions, dilemmas and memory-joggers for friends who think they already know everything about each other.",
+      "audience": "friends",
+      "spice": 0,
+      "free": true,
+      "cards": [
+        {
+          "id": "friends-01",
+          "text": "How did we actually become friends? Who remembers it best?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-02",
+          "text": "What was your first impression of me, honestly?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-03",
+          "text": "What's the funniest thing we've ever done together?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-04",
+          "text": "What's a story about us we should tell more often?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-05",
+          "text": "Which of us would last longest in a zombie film?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-06",
+          "text": "What's the most 'us' thing we do?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-07",
+          "text": "If we started a business together, what would it be?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-08",
+          "text": "What's something you've always wanted to try but need a partner in crime for?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-09",
+          "text": "What's a film or show you think I'd love but haven't seen yet?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-10",
+          "text": "What's my most predictable habit?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-11",
+          "text": "What's a trip we keep talking about but never book?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-12",
+          "text": "What's the best advice you've ever had from a friend?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-13",
+          "text": "Who would play each of us in a film about our friendship?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-14",
+          "text": "What's a hill you will die on, however silly it is?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-15",
+          "text": "What's a talent of yours I don't know about yet?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-16",
+          "text": "What's the worst haircut you've ever had?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-17",
+          "text": "What were you like at school?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-18",
+          "text": "What would your perfect birthday look like this year?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-19",
+          "text": "What's something you're looking forward to right now?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-20",
+          "text": "What's a small win you've had recently that deserves a cheer?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-21",
+          "text": "Which fictional friend group are we most like?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-22",
+          "text": "What's the most useless fact you know by heart?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-23",
+          "text": "What's a food you hated as a kid but love now?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-24",
+          "text": "If we swapped lives for a week, what would surprise you most?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-25",
+          "text": "What's one thing I could do to be an even better friend to you?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-26",
+          "text": "What's a challenge we should take on together this year?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-27",
+          "text": "Which song should be our friendship anthem?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-28",
+          "text": "Is there anything coming up that you're nervous about? How can I help?",
+          "kind": "question"
+        },
+        {
+          "id": "friends-29",
+          "text": "Would you rather go on a road trip with me or a city break with me?",
+          "kind": "wyr"
+        },
+        {
+          "id": "friends-30",
+          "text": "Would you rather have a weekly film night or a monthly adventure day?",
+          "kind": "wyr"
+        },
+        {
+          "id": "friends-31",
+          "text": "Would you rather be famous for your cooking or for your dance moves?",
+          "kind": "wyr"
+        },
+        {
+          "id": "friends-32",
+          "text": "Would you rather find £20 in an old coat every month or get a free coffee every day?",
+          "kind": "wyr"
+        },
+        {
+          "id": "friends-33",
+          "text": "Would you rather spend a day as a dog or as a cat?",
+          "kind": "wyr"
+        },
+        {
+          "id": "friends-34",
+          "text": "Would you rather we were neighbours or flatmates for a year?",
+          "kind": "wyr"
+        },
+        {
+          "id": "friends-35",
+          "text": "You're the friend I'd call first if...",
+          "kind": "finish"
+        },
+        {
+          "id": "friends-36",
+          "text": "The thing I admire most about you is...",
+          "kind": "finish"
+        },
+        {
+          "id": "friends-37",
+          "text": "Our friendship in three words is...",
+          "kind": "finish"
+        },
+        {
+          "id": "friends-38",
+          "text": "The best night out we've ever had involved...",
+          "kind": "finish"
+        },
+        {
+          "id": "friends-39",
+          "text": "If we had a podcast, it would be about...",
+          "kind": "finish"
+        },
+        {
+          "id": "friends-40",
+          "text": "You always make me laugh when you...",
+          "kind": "finish"
+        }
+      ]
+    },
+    {
+      "id": "party",
+      "name": "Party",
+      "description": "Big-group energy for 3 or more players: point, vote, share and laugh. Cheeky, never cruel.",
+      "audience": "groups",
+      "spice": 1,
+      "free": true,
+      "cards": [
+        {
+          "id": "party-01",
+          "text": "Who here is most likely to become famous, and what for?",
+          "kind": "question"
+        },
+        {
+          "id": "party-02",
+          "text": "Everyone: reveal the most random thing in your pockets or bag right now.",
+          "kind": "question"
+        },
+        {
+          "id": "party-03",
+          "text": "Who in this group would you most want with you on a desert island?",
+          "kind": "question"
+        },
+        {
+          "id": "party-04",
+          "text": "What's the best fancy dress outfit you've ever worn or seen?",
+          "kind": "question"
+        },
+        {
+          "id": "party-05",
+          "text": "Who here has a hidden talent? Show us if you're up for it.",
+          "kind": "question"
+        },
+        {
+          "id": "party-06",
+          "text": "Go round the group: what's your go-to karaoke song?",
+          "kind": "question"
+        },
+        {
+          "id": "party-07",
+          "text": "Who here would win a cook-off, and what would they make?",
+          "kind": "question"
+        },
+        {
+          "id": "party-08",
+          "text": "What's the most ridiculous thing you've ever bought online?",
+          "kind": "question"
+        },
+        {
+          "id": "party-09",
+          "text": "Point to the person most likely to talk their way into a VIP area.",
+          "kind": "question"
+        },
+        {
+          "id": "party-10",
+          "text": "If this group were a band, what would we be called and who's the lead singer?",
+          "kind": "question"
+        },
+        {
+          "id": "party-11",
+          "text": "What's a terrible film you secretly love?",
+          "kind": "question"
+        },
+        {
+          "id": "party-12",
+          "text": "Everyone: name a celebrity you had a crush on growing up.",
+          "kind": "question"
+        },
+        {
+          "id": "party-13",
+          "text": "Who here gives the best advice? Back it up with an example.",
+          "kind": "question"
+        },
+        {
+          "id": "party-14",
+          "text": "What's the most chaotic holiday you've ever been on?",
+          "kind": "question"
+        },
+        {
+          "id": "party-15",
+          "text": "Who in the group would survive longest without their phone?",
+          "kind": "question"
+        },
+        {
+          "id": "party-16",
+          "text": "What's your most irrational fear?",
+          "kind": "question"
+        },
+        {
+          "id": "party-17",
+          "text": "Who here would make the best tour guide for their home town?",
+          "kind": "question"
+        },
+        {
+          "id": "party-18",
+          "text": "What's the strangest dream you can remember?",
+          "kind": "question"
+        },
+        {
+          "id": "party-19",
+          "text": "Go round: say one thing you genuinely like about the person on your left.",
+          "kind": "question"
+        },
+        {
+          "id": "party-20",
+          "text": "What's a party trick you could do right now?",
+          "kind": "question"
+        },
+        {
+          "id": "party-21",
+          "text": "If this group had a mascot, what animal would it be and why?",
+          "kind": "question"
+        },
+        {
+          "id": "party-22",
+          "text": "What's the best compliment a stranger has ever given you?",
+          "kind": "question"
+        },
+        {
+          "id": "party-23",
+          "text": "Who here is most likely to accidentally start a new trend?",
+          "kind": "question"
+        },
+        {
+          "id": "party-24",
+          "text": "What's the funniest autocorrect fail you've ever sent?",
+          "kind": "question"
+        },
+        {
+          "id": "party-25",
+          "text": "We're planning a heist. What's everyone's role in the crew?",
+          "kind": "question"
+        },
+        {
+          "id": "party-26",
+          "text": "What's a hobby you'd take up if you had a whole free month?",
+          "kind": "question"
+        },
+        {
+          "id": "party-27",
+          "text": "What's the best bit of celebrity or historical trivia you know?",
+          "kind": "question"
+        },
+        {
+          "id": "party-28",
+          "text": "Who here would you trust to choose your next haircut?",
+          "kind": "question"
+        },
+        {
+          "id": "party-29",
+          "text": "Would you rather sing everything you say for an hour or speak only in film quotes?",
+          "kind": "wyr"
+        },
+        {
+          "id": "party-30",
+          "text": "Would you rather get a theme tune every time you walk in or a round of applause every time you leave?",
+          "kind": "wyr"
+        },
+        {
+          "id": "party-31",
+          "text": "Would you rather only whisper or only shout for a whole night out?",
+          "kind": "wyr"
+        },
+        {
+          "id": "party-32",
+          "text": "Would you rather be the funniest person in the room or the smartest?",
+          "kind": "wyr"
+        },
+        {
+          "id": "party-33",
+          "text": "Would you rather go to a party where everyone's in fancy dress or everyone's in pyjamas?",
+          "kind": "wyr"
+        },
+        {
+          "id": "party-34",
+          "text": "Would you rather let this group choose your next holiday or your next haircut?",
+          "kind": "wyr"
+        },
+        {
+          "id": "party-35",
+          "text": "This group's next big night out should be...",
+          "kind": "finish"
+        },
+        {
+          "id": "party-36",
+          "text": "My hidden superpower at parties is...",
+          "kind": "finish"
+        },
+        {
+          "id": "party-37",
+          "text": "If I won the lottery, the first thing I'd buy this group is...",
+          "kind": "finish"
+        },
+        {
+          "id": "party-38",
+          "text": "The most 'me' thing I've ever done is...",
+          "kind": "finish"
+        },
+        {
+          "id": "party-39",
+          "text": "My signature dance move is called...",
+          "kind": "finish"
+        },
+        {
+          "id": "party-40",
+          "text": "The best party I've ever been to had...",
+          "kind": "finish"
+        }
+      ]
+    },
+    {
+      "id": "long-distance",
+      "name": "Long Distance",
+      "description": "For couples living apart: prompts for calls, voice notes and counting down to the next visit.",
+      "audience": "couples",
+      "spice": 1,
+      "free": false,
+      "cards": [
+        {
+          "id": "long-distance-01",
+          "text": "What's the first thing you want to do when we're next together?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-02",
+          "text": "What time of day do you miss me most?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-03",
+          "text": "What's a small thing I could send you in the post that would make your week?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-04",
+          "text": "Which of our calls has been your favourite so far?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-05",
+          "text": "What's something in your day you wish I could see right now?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-06",
+          "text": "What's one thing about where you live that you'd love to show me in person?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-07",
+          "text": "What's a film we could both watch at the same time this week?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-08",
+          "text": "Do you have a little countdown ritual before we see each other?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-09",
+          "text": "When the distance feels hard, what helps you most?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-10",
+          "text": "What do you want our first weekend in the same city to look like?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-11",
+          "text": "What's a habit of mine you've noticed more since we've been apart?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-12",
+          "text": "What's something you've learned about us because of the distance?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-13",
+          "text": "What would you cook for me the next time I visit?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-14",
+          "text": "Which song makes you think of me when you're on your own?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-15",
+          "text": "What would make our calls feel even more 'us'?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-16",
+          "text": "What's the best surprise you could pull off from far away?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-17",
+          "text": "If we could teleport once a week, where would we meet?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-18",
+          "text": "What's something you'd like me to ask you about more often?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-19",
+          "text": "Which spot near you would become 'our place' if I lived there?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-20",
+          "text": "What's a goal you're working on that I can cheer on from here?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-21",
+          "text": "What do you miss most about being in the same room as me?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-22",
+          "text": "What's a game we could play together online that we haven't tried yet?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-23",
+          "text": "What's your favourite thing about hearing my voice at the end of the day?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-24",
+          "text": "What's a memory of us you replay when you're missing me?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-25",
+          "text": "Where do you picture us living when the distance is over?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-26",
+          "text": "What's something I do on calls that always makes you smile?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-27",
+          "text": "What would you put in a care package for me?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-28",
+          "text": "What's one thing that would make our next goodbye a little easier?",
+          "kind": "question"
+        },
+        {
+          "id": "long-distance-29",
+          "text": "Would you rather have one long call a week or short check-ins every day?",
+          "kind": "wyr"
+        },
+        {
+          "id": "long-distance-30",
+          "text": "Would you rather wake up to a handwritten letter or a voice note?",
+          "kind": "wyr"
+        },
+        {
+          "id": "long-distance-31",
+          "text": "Would you rather plan our next visit together or be totally surprised by it?",
+          "kind": "wyr"
+        },
+        {
+          "id": "long-distance-32",
+          "text": "Would you rather we both watched the same sunrise or the same sunset, wherever we are?",
+          "kind": "wyr"
+        },
+        {
+          "id": "long-distance-33",
+          "text": "Would you rather cook the same recipe together on a call or dress up for a 'restaurant' date at home?",
+          "kind": "wyr"
+        },
+        {
+          "id": "long-distance-34",
+          "text": "Would you rather share a photo album or a playlist we both keep adding to?",
+          "kind": "wyr"
+        },
+        {
+          "id": "long-distance-35",
+          "text": "The next time I see you, I'm going to...",
+          "kind": "finish"
+        },
+        {
+          "id": "long-distance-36",
+          "text": "I feel closest to you from far away when...",
+          "kind": "finish"
+        },
+        {
+          "id": "long-distance-37",
+          "text": "The best thing about missing you is...",
+          "kind": "finish"
+        },
+        {
+          "id": "long-distance-38",
+          "text": "When we finally live in the same place, I want to...",
+          "kind": "finish"
+        },
+        {
+          "id": "long-distance-39",
+          "text": "If I could post you one thing tonight, it would be...",
+          "kind": "finish"
+        },
+        {
+          "id": "long-distance-40",
+          "text": "You make the distance feel smaller when...",
+          "kind": "finish"
+        }
+      ]
+    },
+    {
+      "id": "deep-talk",
+      "name": "Deep Talk",
+      "description": "Slower, thoughtful questions for when you want the real conversation. Skip anything that doesn't feel right today.",
+      "audience": "anyone",
+      "spice": 0,
+      "free": false,
+      "cards": [
+        {
+          "id": "deep-talk-01",
+          "text": "What's a belief you held strongly five years ago that you've since changed?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-02",
+          "text": "When do you feel most like yourself?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-03",
+          "text": "What's something you're still learning to forgive yourself for?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-04",
+          "text": "In one sentence, what does a good life look like to you?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-05",
+          "text": "Who do you turn to when things get hard, and why them?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-06",
+          "text": "What's a fear that has quietly shaped some of your choices?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-07",
+          "text": "What's something you wish more people asked you about?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-08",
+          "text": "What's the kindest thing a stranger has ever done for you?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-09",
+          "text": "What would you do differently if you knew nobody would judge you?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-10",
+          "text": "What's a moment that changed the direction of your life?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-11",
+          "text": "How do you know when you need a break?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-12",
+          "text": "What does home mean to you?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-13",
+          "text": "Which of your qualities took you longest to appreciate?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-14",
+          "text": "What's a question you'd love to know the answer to?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-15",
+          "text": "What's something you're grateful for that you rarely mention?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-16",
+          "text": "What do you hope people say about you when you're not in the room?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-17",
+          "text": "What's a risk you're really glad you took?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-18",
+          "text": "What's a risk you wish you'd taken?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-19",
+          "text": "How has your idea of success changed over the years?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-20",
+          "text": "What's something you believe that most people around you don't?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-21",
+          "text": "When did you last feel truly at peace?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-22",
+          "text": "What would your younger self be surprised to learn about you now?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-23",
+          "text": "What do you find hardest to ask for?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-24",
+          "text": "What's a lesson you've learned the hard way?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-25",
+          "text": "Which relationship in your life has taught you the most?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-26",
+          "text": "What are you carrying right now that you'd like to put down?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-27",
+          "text": "What does being brave look like in your everyday life?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-28",
+          "text": "If you could have one honest chat with someone from your past, who would it be?",
+          "kind": "question"
+        },
+        {
+          "id": "deep-talk-29",
+          "text": "Would you rather always hear the hard truth or sometimes be spared it?",
+          "kind": "wyr"
+        },
+        {
+          "id": "deep-talk-30",
+          "text": "Would you rather have a few very close friends or a big circle of good ones?",
+          "kind": "wyr"
+        },
+        {
+          "id": "deep-talk-31",
+          "text": "Would you rather be remembered for your kindness or for your achievements?",
+          "kind": "wyr"
+        },
+        {
+          "id": "deep-talk-32",
+          "text": "Would you rather relive your best year or skip your hardest one?",
+          "kind": "wyr"
+        },
+        {
+          "id": "deep-talk-33",
+          "text": "Would you rather know exactly how your life turns out or keep the surprise?",
+          "kind": "wyr"
+        },
+        {
+          "id": "deep-talk-34",
+          "text": "Would you rather be deeply understood by one person or liked by everyone?",
+          "kind": "wyr"
+        },
+        {
+          "id": "deep-talk-35",
+          "text": "I feel most alive when...",
+          "kind": "finish"
+        },
+        {
+          "id": "deep-talk-36",
+          "text": "Something I'm learning to accept about myself is...",
+          "kind": "finish"
+        },
+        {
+          "id": "deep-talk-37",
+          "text": "The best decision I've ever made was...",
+          "kind": "finish"
+        },
+        {
+          "id": "deep-talk-38",
+          "text": "If I could give everyone one piece of advice, it would be...",
+          "kind": "finish"
+        },
+        {
+          "id": "deep-talk-39",
+          "text": "I know I'm loved when...",
+          "kind": "finish"
+        },
+        {
+          "id": "deep-talk-40",
+          "text": "Ten years from now, I hope I...",
+          "kind": "finish"
+        }
+      ]
+    },
+    {
+      "id": "road-trip",
+      "name": "Road Trip",
+      "description": "Questions, dilemmas and silly challenges to make the miles fly by. Passengers read; drivers keep their eyes on the road.",
+      "audience": "anyone",
+      "spice": 0,
+      "free": false,
+      "cards": [
+        {
+          "id": "road-trip-01",
+          "text": "What's the ultimate road trip snack, and is it a crime to open it before the motorway?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-02",
+          "text": "Who's in charge of the music, and what's the first song?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-03",
+          "text": "What's the best service station you've ever stopped at?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-04",
+          "text": "If this car could talk, what would it say about us?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-05",
+          "text": "What's the most beautiful drive you've ever been on?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-06",
+          "text": "What's a place in the UK you've always wanted to visit but haven't yet?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-07",
+          "text": "Which song is guaranteed to get everyone in this car singing?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-08",
+          "text": "What's the longest journey you've ever done, and how did you survive it?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-09",
+          "text": "If we could detour anywhere right now, where would we go?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-10",
+          "text": "Pick a place name we've passed and invent the story of how it got its name.",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-11",
+          "text": "What's your best travel disaster story?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-12",
+          "text": "Which famous person would make the best passenger on this trip?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-13",
+          "text": "What's your car karaoke signature song?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-14",
+          "text": "Which matters more: the journey or the destination?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-15",
+          "text": "What's the best thing you've ever stumbled across on holiday by accident?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-16",
+          "text": "Invent a brand-new car game in under a minute. Go!",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-17",
+          "text": "What would you pack for a month away with only one small bag?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-18",
+          "text": "If you could do a trip round the world, which places would you visit, in order?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-19",
+          "text": "What's a childhood car journey you still remember?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-20",
+          "text": "What's the best meal you've ever had on a trip?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-21",
+          "text": "We've found a village fete on the way. Which stall are you heading to first?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-22",
+          "text": "Name a famous landmark you'd love to see. What would you do there first?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-23",
+          "text": "What's your favourite kind of weather for a long drive?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-24",
+          "text": "If you had to live in one of the towns we pass today, which would it be?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-25",
+          "text": "What's a smell that instantly reminds you of holidays?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-26",
+          "text": "If we made a travel show about this trip, what's it called and who presents?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-27",
+          "text": "Rate today's trip so far out of ten. What would make it an eleven?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-28",
+          "text": "What's one thing you've learned about someone in this car today?",
+          "kind": "question"
+        },
+        {
+          "id": "road-trip-29",
+          "text": "Would you rather take the scenic route or the quickest one?",
+          "kind": "wyr"
+        },
+        {
+          "id": "road-trip-30",
+          "text": "Would you rather drive through the Scottish Highlands or along the Cornish coast?",
+          "kind": "wyr"
+        },
+        {
+          "id": "road-trip-31",
+          "text": "Would you rather tour by campervan for a month or by train across Europe?",
+          "kind": "wyr"
+        },
+        {
+          "id": "road-trip-32",
+          "text": "Would you rather have unlimited snacks or unlimited playlists for the rest of the trip?",
+          "kind": "wyr"
+        },
+        {
+          "id": "road-trip-33",
+          "text": "Would you rather stop at every viewpoint or not stop at all until we arrive?",
+          "kind": "wyr"
+        },
+        {
+          "id": "road-trip-34",
+          "text": "Would you rather share a long drive with a very chatty stranger or in total silence?",
+          "kind": "wyr"
+        },
+        {
+          "id": "road-trip-35",
+          "text": "The perfect road trip always has...",
+          "kind": "finish"
+        },
+        {
+          "id": "road-trip-36",
+          "text": "If we got lost today, I'd want to end up in...",
+          "kind": "finish"
+        },
+        {
+          "id": "road-trip-37",
+          "text": "The song that sums up this trip is...",
+          "kind": "finish"
+        },
+        {
+          "id": "road-trip-38",
+          "text": "My official job on this trip is...",
+          "kind": "finish"
+        },
+        {
+          "id": "road-trip-39",
+          "text": "The best thing I've seen out of the window today was...",
+          "kind": "finish"
+        },
+        {
+          "id": "road-trip-40",
+          "text": "Next year, our road trip should go to...",
+          "kind": "finish"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "name": "Family Dinner",
+      "description": "Dinner-table questions everyone from age 8 up can answer, from silly dilemmas to proud moments.",
+      "audience": "families",
+      "spice": 0,
+      "free": false,
+      "cards": [
+        {
+          "id": "family-01",
+          "text": "What was the best part of your day today?",
+          "kind": "question"
+        },
+        {
+          "id": "family-02",
+          "text": "If you could invent a brand-new holiday, what would we celebrate?",
+          "kind": "question"
+        },
+        {
+          "id": "family-03",
+          "text": "Which animal would make the funniest teacher?",
+          "kind": "question"
+        },
+        {
+          "id": "family-04",
+          "text": "What's something that made you laugh this week?",
+          "kind": "question"
+        },
+        {
+          "id": "family-05",
+          "text": "If you had a superpower for just one day, what would you do with it?",
+          "kind": "question"
+        },
+        {
+          "id": "family-06",
+          "text": "What's a meal you'd love us to cook together?",
+          "kind": "question"
+        },
+        {
+          "id": "family-07",
+          "text": "What's something kind you saw someone do recently?",
+          "kind": "question"
+        },
+        {
+          "id": "family-08",
+          "text": "If our family had a motto, what would it be?",
+          "kind": "question"
+        },
+        {
+          "id": "family-09",
+          "text": "Grown-ups: what's a story from when you were the age of the youngest person here?",
+          "kind": "question"
+        },
+        {
+          "id": "family-10",
+          "text": "If you could teleport anywhere after dinner, where would you go?",
+          "kind": "question"
+        },
+        {
+          "id": "family-11",
+          "text": "What's something you're good at that you could teach the rest of us?",
+          "kind": "question"
+        },
+        {
+          "id": "family-12",
+          "text": "If you could swap places with someone at this table for a day, who would it be and why?",
+          "kind": "question"
+        },
+        {
+          "id": "family-13",
+          "text": "What's the best book, game or film you've enjoyed lately?",
+          "kind": "question"
+        },
+        {
+          "id": "family-14",
+          "text": "If you were in charge of the house for a day, what rules would you make?",
+          "kind": "question"
+        },
+        {
+          "id": "family-15",
+          "text": "Is anything tricky for you at the moment? How could we help?",
+          "kind": "question"
+        },
+        {
+          "id": "family-16",
+          "text": "What's your earliest memory?",
+          "kind": "question"
+        },
+        {
+          "id": "family-17",
+          "text": "If you could be famous for one thing, what would it be?",
+          "kind": "question"
+        },
+        {
+          "id": "family-18",
+          "text": "What's the silliest thing you've ever seen an animal do?",
+          "kind": "question"
+        },
+        {
+          "id": "family-19",
+          "text": "Which job would you like to try for just one week?",
+          "kind": "question"
+        },
+        {
+          "id": "family-20",
+          "text": "What would you put in a time capsule to open in ten years?",
+          "kind": "question"
+        },
+        {
+          "id": "family-21",
+          "text": "If you could make one thing in the world better, what would it be?",
+          "kind": "question"
+        },
+        {
+          "id": "family-22",
+          "text": "What's a family tradition you love, and why?",
+          "kind": "question"
+        },
+        {
+          "id": "family-23",
+          "text": "If you wrote a book, what would it be called?",
+          "kind": "question"
+        },
+        {
+          "id": "family-24",
+          "text": "What's something you'd like to learn before your next birthday?",
+          "kind": "question"
+        },
+        {
+          "id": "family-25",
+          "text": "Who's someone you look up to, and what do you admire about them?",
+          "kind": "question"
+        },
+        {
+          "id": "family-26",
+          "text": "If you could talk to animals, which one would you chat to first?",
+          "kind": "question"
+        },
+        {
+          "id": "family-27",
+          "text": "What's the most delicious thing you've ever eaten?",
+          "kind": "question"
+        },
+        {
+          "id": "family-28",
+          "text": "What's one thing you're thankful for today?",
+          "kind": "question"
+        },
+        {
+          "id": "family-29",
+          "text": "Would you rather have a pet dragon the size of a cat or a cat the size of a dragon?",
+          "kind": "wyr"
+        },
+        {
+          "id": "family-30",
+          "text": "Would you rather live in a treehouse or an underwater house?",
+          "kind": "wyr"
+        },
+        {
+          "id": "family-31",
+          "text": "Would you rather eat only pudding or only pizza for a whole week?",
+          "kind": "wyr"
+        },
+        {
+          "id": "family-32",
+          "text": "Would you rather be able to breathe underwater or jump as high as a house?",
+          "kind": "wyr"
+        },
+        {
+          "id": "family-33",
+          "text": "Would you rather explore outer space or the deepest part of the ocean?",
+          "kind": "wyr"
+        },
+        {
+          "id": "family-34",
+          "text": "Would you rather have a robot that does your chores or one that tells you jokes all day?",
+          "kind": "wyr"
+        },
+        {
+          "id": "family-35",
+          "text": "The best thing about our family is...",
+          "kind": "finish"
+        },
+        {
+          "id": "family-36",
+          "text": "If I ruled the world for a day, I would...",
+          "kind": "finish"
+        },
+        {
+          "id": "family-37",
+          "text": "My dream weekend would include...",
+          "kind": "finish"
+        },
+        {
+          "id": "family-38",
+          "text": "Something that always cheers me up is...",
+          "kind": "finish"
+        },
+        {
+          "id": "family-39",
+          "text": "When I'm older, I'd love to...",
+          "kind": "finish"
+        },
+        {
+          "id": "family-40",
+          "text": "Today I felt proud when...",
+          "kind": "finish"
+        }
+      ]
+    },
+    {
+      "id": "spicy",
+      "name": "Turn Up The Heat",
+      "description": "Flirty prompts for adult couples (18+) who want to turn up the romance. Cheeky and warm, never explicit.",
+      "audience": "adults",
+      "spice": 2,
+      "free": false,
+      "cards": [
+        {
+          "id": "spicy-01",
+          "text": "What was the very first thing about me that caught your eye?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-02",
+          "text": "Where's the most romantic spot in the world you'd love to share a kiss?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-03",
+          "text": "Which outfit of mine would you like to see more often?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-04",
+          "text": "What's the most charming thing I've ever said to you?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-05",
+          "text": "Describe our perfect date night in exactly three words.",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-06",
+          "text": "What's a look I give you that you can't resist?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-07",
+          "text": "When did you last catch yourself staring at me?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-08",
+          "text": "Write the most charming text you can in 30 seconds and send it to me.",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-09",
+          "text": "Which song would you pick for a slow dance with me tonight?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-10",
+          "text": "Which of my features would you write a poem about?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-11",
+          "text": "How do you like me to say hello when we've been apart all day?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-12",
+          "text": "If we had a secret signal for 'let's leave the party early', what would it be?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-13",
+          "text": "What's a romantic film scene you'd love to recreate with me?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-14",
+          "text": "What compliment from me would make you blush?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-15",
+          "text": "What's your favourite kind of kiss from me?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-16",
+          "text": "Where would you whisk me away for a weekend with no plans at all?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-17",
+          "text": "What's the boldest thing you'd do to get my attention across a crowded room?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-18",
+          "text": "What's a tiny detail about me you find seriously attractive?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-19",
+          "text": "If you wrote me a love note tonight, how would it start?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-20",
+          "text": "What's something about our chemistry that surprised you?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-21",
+          "text": "Talk me through our dream evening in, from dinner to the last song.",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-22",
+          "text": "What's your favourite memory of a kiss we've shared?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-23",
+          "text": "Which of our dates would you recreate, only even better?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-24",
+          "text": "What's a flirty nickname you've been tempted to call me?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-25",
+          "text": "Can you hold eye contact with me for 20 seconds without smiling? Try it now.",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-26",
+          "text": "What's the most romantic thing a partner could plan for you?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-27",
+          "text": "When did you last get butterflies because of me?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-28",
+          "text": "Which of my habits do you find secretly irresistible?",
+          "kind": "question"
+        },
+        {
+          "id": "spicy-29",
+          "text": "Would you rather share a kiss in the rain or a kiss under the stars?",
+          "kind": "wyr"
+        },
+        {
+          "id": "spicy-30",
+          "text": "Would you rather slow dance in the living room or take a salsa class together?",
+          "kind": "wyr"
+        },
+        {
+          "id": "spicy-31",
+          "text": "Would you rather I wrote you a love letter or serenaded you, badly?",
+          "kind": "wyr"
+        },
+        {
+          "id": "spicy-32",
+          "text": "Would you rather go on a surprise date I've planned or one where you call all the shots?",
+          "kind": "wyr"
+        },
+        {
+          "id": "spicy-33",
+          "text": "Would you rather have a weekend in a cosy cabin or a rooftop hotel in a big city?",
+          "kind": "wyr"
+        },
+        {
+          "id": "spicy-34",
+          "text": "Would you rather get a long hug or a long kiss when I get home?",
+          "kind": "wyr"
+        },
+        {
+          "id": "spicy-35",
+          "text": "You had me at...",
+          "kind": "finish"
+        },
+        {
+          "id": "spicy-36",
+          "text": "The first time I wanted to kiss you was...",
+          "kind": "finish"
+        },
+        {
+          "id": "spicy-37",
+          "text": "One thing I'd love us to do on our next date night is...",
+          "kind": "finish"
+        },
+        {
+          "id": "spicy-38",
+          "text": "You're very hard to resist when you...",
+          "kind": "finish"
+        },
+        {
+          "id": "spicy-39",
+          "text": "If tonight were a film, the title would be...",
+          "kind": "finish"
+        },
+        {
+          "id": "spicy-40",
+          "text": "The compliment from you that I replay in my head is...",
+          "kind": "finish"
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "in-sync",
+      "name": "How in sync are we?",
+      "description": "For couples. Each of you answers privately, then compare: every matching answer scores a point.",
+      "questions": [
+        {
+          "id": "in-sync-q1",
+          "q": "Our perfect Friday night looks like...",
+          "options": [
+            "A takeaway and a film on the sofa",
+            "Dinner somewhere new",
+            "Out with friends",
+            "An early night, we've earned it"
+          ]
+        },
+        {
+          "id": "in-sync-q2",
+          "q": "Our dream holiday is...",
+          "options": [
+            "Sun, sea and doing nothing",
+            "A city break packed with food and sights",
+            "Hiking somewhere wild",
+            "A road trip with no fixed plan"
+          ]
+        },
+        {
+          "id": "in-sync-q3",
+          "q": "On a rainy Sunday, we're most likely to...",
+          "options": [
+            "Stay in pyjamas all day",
+            "Go for a soggy walk anyway",
+            "Cook something ambitious",
+            "Binge a whole series"
+          ]
+        },
+        {
+          "id": "in-sync-q4",
+          "q": "Our go-to takeaway is...",
+          "options": [
+            "Pizza",
+            "Curry",
+            "Chinese",
+            "Fish and chips"
+          ]
+        },
+        {
+          "id": "in-sync-q5",
+          "q": "Our superpower as a couple is...",
+          "options": [
+            "Making each other laugh",
+            "Planning brilliant trips",
+            "Getting through tough times",
+            "Knowing what the other needs"
+          ]
+        },
+        {
+          "id": "in-sync-q6",
+          "q": "The chore we'd both happily never do again is...",
+          "options": [
+            "Washing up",
+            "Ironing",
+            "Cleaning the bathroom",
+            "Taking the bins out"
+          ]
+        },
+        {
+          "id": "in-sync-q7",
+          "q": "If we could move anywhere for a year, we'd pick...",
+          "options": [
+            "A cottage in the countryside",
+            "A flat in a big city",
+            "Somewhere by the sea",
+            "Abroad, somewhere sunny"
+          ]
+        },
+        {
+          "id": "in-sync-q8",
+          "q": "Our ideal way to celebrate an anniversary is...",
+          "options": [
+            "A fancy dinner",
+            "A weekend away",
+            "Recreating our first date",
+            "A quiet night in, just us"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "friend-roles",
+      "name": "Friend group roles",
+      "description": "For friends. How does your group really work? Each of you answers privately, then compare: every match scores a point.",
+      "questions": [
+        {
+          "id": "friend-roles-q1",
+          "q": "If our friend group were a heist crew, we'd be best at...",
+          "options": [
+            "The master plan",
+            "The getaway",
+            "Talking our way out of trouble",
+            "Celebrating afterwards"
+          ]
+        },
+        {
+          "id": "friend-roles-q2",
+          "q": "Our group chat is mostly...",
+          "options": [
+            "Memes and voice notes",
+            "Plans that never happen",
+            "Proper life updates",
+            "Pure chaos at 2am"
+          ]
+        },
+        {
+          "id": "friend-roles-q3",
+          "q": "When one of us has big news, the group...",
+          "options": [
+            "Celebrates straight away",
+            "Wants every single detail",
+            "Plans a get-together",
+            "Sends a flood of emojis"
+          ]
+        },
+        {
+          "id": "friend-roles-q4",
+          "q": "The role our group is missing is...",
+          "options": [
+            "A reliable planner",
+            "A brilliant cook",
+            "Someone who's always on time",
+            "Nobody, we're complete"
+          ]
+        },
+        {
+          "id": "friend-roles-q5",
+          "q": "On a group holiday, we spend most of our time...",
+          "options": [
+            "Exploring everything",
+            "Lounging by the pool",
+            "Eating our way round",
+            "Debating what to do next"
+          ]
+        },
+        {
+          "id": "friend-roles-q6",
+          "q": "Our group's unofficial motto is...",
+          "options": [
+            "We'll sort it later",
+            "Snacks first",
+            "Say yes to everything",
+            "Who's driving?"
+          ]
+        },
+        {
+          "id": "friend-roles-q7",
+          "q": "If our friendship were a film, it would be...",
+          "options": [
+            "A comedy",
+            "An adventure",
+            "A feel-good drama",
+            "A chaotic documentary"
+          ]
+        },
+        {
+          "id": "friend-roles-q8",
+          "q": "What really holds our group together is...",
+          "options": [
+            "Shared history",
+            "The same sense of humour",
+            "Being there when it counts",
+            "Food, honestly"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+import type { Brand } from '@/kit/theme';
+
+export const brand: Brand = {
+  slug: 'afterhours',
+  name: 'AfterHours',
+  tagline: 'Better questions for couples and friends',
+  fonts: { display: 'DMSerifDisplay_400Regular' },
+  radius: 18,
+  light: {
+    bg: '#FBF5F1',
+    surface: '#FFFFFF',
+    surfaceAlt: '#F3E4EC',
+    text: '#22101E',
+    textMuted: '#664F60',
+    border: '#EBD6E2',
+    primary: '#7A2E6B',
+    primaryText: '#FFFFFF',
+    accent: '#FF9F1C',
+    accentText: '#22101E',
+    success: '#2F7D32',
+    warning: '#9A5B00',
+    danger: '#B3261E',
+    focus: '#7A2E6B',
+  },
+  dark: {
+    bg: '#150C1C',
+    surface: '#22142C',
+    surfaceAlt: '#2F1D3B',
+    text: '#F7ECF4',
+    textMuted: '#C4ACBE',
+    border: '#3D2949',
+    primary: '#E9A6D6',
+    primaryText: '#2A0E24',
+    accent: '#FFB454',
+    accentText: '#22101E',
+    success: '#7BD88F',
+    warning: '#F3B44C',
+    danger: '#FF8A80',
+    focus: '#E9A6D6',
+  },
+  plans: [
+    { id: 'yearly', label: 'Yearly', price: '£24.99 a year', note: 'Best value: every deck, plus a new pack each month' },
+    { id: 'monthly', label: 'Monthly', price: '£3.49 a month' },
+  ],
+  premiumPerks: ['All 9 decks, including Deep Talk, Road Trip and Turn Up The Heat', 'A new pack every month', 'Unlimited custom decks', 'No ads, ever'],
+  privacyUrl: 'https://kaoticchainz.com/privacy',
+  termsUrl: 'https://kaoticchainz.com/terms',
+  supportEmail: 'hello@kaoticchainz.com',
+};
+
+export const FREE_CUSTOM_DECKS = 1;
