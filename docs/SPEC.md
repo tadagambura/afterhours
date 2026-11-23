@@ -1,6 +1,6 @@
 # AfterHours: Spec
 
-**Better questions for couples and friends** · #3 of 15 · Wave 1: Daily keepers · Used: Weekly · Easy, content-heavy · Revenue potential: Medium–high · Social, Play & Style · Source: ChatGPT + Perplexity (absorbs PickOne and TypeMe)
+**Better questions for couples and friends** · #3 of 17 · Wave 1: Daily keepers · Used: Weekly · Easy, content-heavy · Revenue potential: Medium–high · Social, Play & Style · Source: ChatGPT + Perplexity (absorbs PickOne and TypeMe)
 
 ## One-liner
 

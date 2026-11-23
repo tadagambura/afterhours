@@ -2,7 +2,7 @@
 
 **Better questions for couples and friends**
 
-> #3 of 15 · Wave 1: Daily keepers · Used: Weekly · Easy, content-heavy · Revenue potential: Medium–high · Social, Play & Style
+> #3 of 17 · Wave 1: Daily keepers · Used: Weekly · Easy, content-heavy · Revenue potential: Medium–high · Social, Play & Style
 
 ## What it is
 
@@ -85,5 +85,5 @@ Planning. The build spec is in [`docs/SPEC.md`](docs/SPEC.md).
 
 ---
 
-Part of a portfolio of 15 small consumer apps that share one codebase, one retention module
+Part of a portfolio of 17 small consumer apps that share one codebase, one retention module
 and one marketing and upkeep system ([growth-maintenance-engine](https://github.com/tadagambura/growth-maintenance-engine)).
