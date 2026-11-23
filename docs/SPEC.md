@@ -1,6 +1,6 @@
 # AfterHours: Spec
 
-**Better questions for couples and friends** · #11 of 31 · Wave 1: Daily keepers · Used: Weekly · Easy, content-heavy · Revenue potential: Medium–high · Social, Play & Style · Source: ChatGPT + Perplexity
+**Better questions for couples and friends** · #3 of 16 · Wave 1: Daily keepers · Used: Weekly · Easy, content-heavy · Revenue potential: Medium–high · Social, Play & Style · Source: ChatGPT + Perplexity (absorbs PickOne and TypeMe)
 
 ## One-liner
 
@@ -18,7 +18,8 @@ Swipeable question decks for first dates, couples, long-distance relationships, 
 2. Free starter decks: first date, couples, friends, party
 3. Favourites and shuffle
 4. Custom decks
-5. 'Answer privately, reveal together' mode
+5. PickOne wheel: spin for who goes first, a random question or a dare
+6. Compatibility quizzes with shareable couple and friend-group results
 
 ## Not in MVP
 
@@ -54,10 +55,10 @@ never wiped, at most one notification a day by default.
 
 **Full drama.** Duolingo-style theatrics: characters, big over-the-top reactions, sound effects. Thirsty's plant death is the only animation that takes over the full screen ('NOOOOOOO!!!! NOT CYPHICUS!!!!').
 
-- Card flip: a dramatic music sting
-- Spicy deck: the deck is literally on fire, with a fire-extinguisher button
-- Reveal together: 3-2-1 and a dun-dun-DUN
-- New pack: the deck shuffles itself like a magician's
+- Card flip with a dun-dun-DUN
+- The spicy deck is literally on fire (extinguisher button)
+- Next deck? The wheel spins and declares THE WHEEL HAS SPOKEN
+- Answer privately, then reveal together
 - Favourite: a heart pops and floats up
 
 **Line we don't cross:** Playful, never embarrassing: reveals only happen when both people tap.
