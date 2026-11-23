@@ -24,6 +24,8 @@ function Shell() {
         <Stack.Screen name="deck/[id]" options={{ ...header, title: '' }} />
         <Stack.Screen name="deck/new" options={{ ...header, title: 'Your own deck', presentation: 'modal' }} />
         <Stack.Screen name="quiz/[id]" options={{ ...header, title: '' }} />
+        <Stack.Screen name="game/ttt" options={{ ...header, title: 'Tic-tac-toe' }} />
+        <Stack.Screen name="game/c4" options={{ ...header, title: 'Four in a row' }} />
       </Stack>
       {!onboarded ? (
         <View style={StyleSheet.absoluteFill}>
