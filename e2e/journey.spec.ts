@@ -30,12 +30,53 @@ test('first open → free deck → next cards → favourite → persists', async
   expect(errors).toEqual([]);
 });
 
-test('premium decks open the paywall; the spicy deck asks for 18+ once premium', async ({ page }) => {
+test('premium decks open the paywall; flirty is free; explicit decks need Premium and 18+', async ({ page }) => {
   await page.goto('/');
   await finishIntro(page);
   await page.getByTestId('deck-deep-talk').click();
   await expect(page.getByTestId('paywall')).toBeVisible();
   await expect(page.getByText(/Test mode: no real purchase|Premium is coming soon/)).toBeVisible();
+  await page.goto('/');
+  // Free and flirty: no paywall, no age check.
+  await page.getByTestId('deck-spicy').click();
+  await expect(page.getByTestId('card-text')).toBeVisible();
+  await page.goto('/');
+  // Explicit: Premium first.
+  await page.getByTestId('deck-after-dark').click();
+  await expect(page.getByTestId('paywall')).toContainText('18+ Premium deck');
+  await page.getByTestId('paywall-buy').click();
+  await page.getByTestId('paywall-done').click();
+  // Then the age check. An under-18 date of birth keeps it locked.
+  await page.getByTestId('deck-after-dark').click();
+  await expect(page.getByTestId('age-check')).toBeVisible();
+  await page.getByTestId('age-day').fill('01');
+  await page.getByTestId('age-month').fill('06');
+  await page.getByTestId('age-year').fill(String(new Date().getFullYear() - 15));
+  await page.getByTestId('age-confirm').click();
+  await expect(page.getByTestId('age-message')).toContainText('adults only');
+  await page.getByTestId('age-cancel').click();
+  await page.getByTestId('deck-after-dark').click();
+  await expect(page.getByText('Adult decks are locked on this phone for now.')).toBeVisible();
+});
+
+test('an adult date of birth opens the explicit deck; no sharing; discreet mode hides it', async ({ page }) => {
+  await page.goto('/');
+  await finishIntro(page);
+  await page.getByTestId('deck-dare-night').click();
+  await page.getByTestId('paywall-buy').click();
+  await page.getByTestId('paywall-done').click();
+  await page.getByTestId('deck-dare-night').click();
+  await page.getByTestId('age-day').fill('14');
+  await page.getByTestId('age-month').fill('02');
+  await page.getByTestId('age-year').fill('1994');
+  await page.getByTestId('age-confirm').click();
+  await expect(page.getByTestId('card-text')).toContainText('Dare');
+  await expect(page.getByLabel('Share this question')).toHaveCount(0);
+  await page.goto('/settings');
+  await page.getByTestId('hide-adult').click();
+  await page.goto('/');
+  await expect(page.getByTestId('deck-after-dark')).toHaveCount(0);
+  await expect(page.getByTestId('deck-spicy')).toBeVisible();
 });
 
 test('wheel: two names, spin, and the wheel has spoken', async ({ page }) => {

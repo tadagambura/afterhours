@@ -10,6 +10,8 @@ import { useTheme } from '@/kit/theme';
 import { Button, EmptyState, IconButton, Muted, Row, Screen, Toggle } from '@/kit/ui';
 import { canOpen, kindLabel, shuffle } from '@/domain/play';
 import { allDecks, favouritesDeck, usePlay } from '@/state/play';
+import { useAdultAccess } from '@/kit/AgeGate';
+import { brand } from '@/brand';
 
 export default function PlayDeck() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -18,7 +20,8 @@ export default function PlayDeck() {
   const play = usePlay();
   const celebrate = useCelebrate();
   const { confirm, toast } = useFeedback();
-  const deck = id === 'favourites' ? favouritesDeck(play.favourites, play.custom) : allDecks(play.custom).find((d) => d.id === id);
+  const adult = useAdultAccess(brand.slug);
+  const deck = id === 'favourites' ? favouritesDeck(play.favourites, play.custom, adult.allowed && isPremium) : allDecks(play.custom).find((d) => d.id === id);
   const [shuffled, setShuffled] = useState(true);
   const [seed] = useState(() => Date.now() % 100000);
   const [i, setI] = useState(0);
@@ -50,7 +53,7 @@ export default function PlayDeck() {
   goRef.current = (dir: number) => go(i + dir);
 
   if (!deck) return <Screen edges={[]}><EmptyState title="Deck not found" action={<Button title="Back to decks" onPress={() => router.replace('/')} />} /></Screen>;
-  if (canOpen(deck, isPremium, play.adult) !== 'ok') return <Screen edges={[]}><EmptyState icon="lock-closed-outline" title="This deck is locked" body="Open it from the deck list to unlock it." action={<Button title="Back to decks" onPress={() => router.replace('/')} />} /></Screen>;
+  if (canOpen(deck, isPremium, adult.allowed) !== 'ok') return <Screen edges={[]}><EmptyState icon="lock-closed-outline" title="This deck is locked" body="Open it from the deck list to unlock it." action={<Button title="Back to decks" onPress={() => router.replace('/')} />} /></Screen>;
   if (!cards.length) return <Screen edges={[]}><RouterStack.Screen options={{ title: deck.name }} /><EmptyState icon="heart-outline" title="No cards here yet" body="Heart cards while you play and they'll collect here." /></Screen>;
 
   const card = cards[i];
@@ -92,7 +95,7 @@ export default function PlayDeck() {
       <Row style={{ justifyContent: 'space-between' }}>
         <IconButton icon="arrow-back" label="Previous card" onPress={() => go(i - 1)} testID="card-prev" size={28} />
         <IconButton icon={fav ? 'heart' : 'heart-outline'} label={fav ? 'Remove from favourites' : 'Add to favourites'} color={fav ? c.danger : c.text} onPress={() => play.toggleFavourite(card.id)} testID="card-fav" size={28} />
-        <IconButton icon="share-outline" label="Share this question" onPress={() => shareText(`Ask your person this tonight: "${card.text}" (from AfterHours)`, 'card')} size={26} />
+        {deck.spice === 2 ? null : <IconButton icon="share-outline" label="Share this question" onPress={() => shareText(`Ask your person this tonight: "${card.text}" (from AfterHours)`, 'card')} size={26} />}
         <IconButton icon="arrow-forward" label="Next card" onPress={() => go(i + 1)} testID="card-next" size={28} />
       </Row>
       {deck.custom && deck.id !== 'favourites' ? (

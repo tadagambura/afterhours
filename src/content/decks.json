@@ -1685,10 +1685,10 @@
     {
       "id": "spicy",
       "name": "Turn Up The Heat",
-      "description": "Flirty prompts for adult couples (18+) who want to turn up the romance. Cheeky and warm, never explicit.",
+      "description": "Flirty prompts for couples who want to turn up the romance. Cheeky and warm, never explicit. Free for everyone.",
       "audience": "adults",
-      "spice": 2,
-      "free": false,
+      "spice": 1,
+      "free": true,
       "cards": [
         {
           "id": "spicy-01",
@@ -1888,6 +1888,426 @@
         {
           "id": "spicy-40",
           "text": "The compliment from you that I replay in my head is...",
+          "kind": "finish"
+        }
+      ]
+    },
+    {
+      "id": "after-dark",
+      "name": "After Dark",
+      "description": "Explicit questions about desire, fantasies and what you both want. Text only, for consenting adults (18+). Skip any card, any time.",
+      "audience": "adults",
+      "spice": 2,
+      "free": false,
+      "cards": [
+        {
+          "id": "after-dark-01",
+          "text": "What's something you've always wanted to try in bed but never said out loud?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-02",
+          "text": "Where on your body do you most love being kissed?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-03",
+          "text": "What's the sexiest thing I do without realising it?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-04",
+          "text": "Describe your ideal night in, from the first kiss to falling asleep.",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-05",
+          "text": "What's a fantasy you'd only ever tell me?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-06",
+          "text": "When do you feel most desired by me?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-07",
+          "text": "What's one thing I did in bed that you still think about?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-08",
+          "text": "Slow and teasing, or can't-wait-any-longer: which mood are you in tonight?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-09",
+          "text": "What turns you on that might surprise me?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-10",
+          "text": "Is there a place, other than the bedroom, you'd love to get close?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-11",
+          "text": "What's your favourite way for me to start things?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-12",
+          "text": "What's something you'd like more of, and something you'd like less of?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-13",
+          "text": "Which piece of clothing of mine do you most enjoy taking off?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-14",
+          "text": "Lights on or lights off, and why?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-15",
+          "text": "What's a word or phrase you'd love me to whisper to you?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-16",
+          "text": "What's the most memorable night we've had together?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-17",
+          "text": "Tell me one boundary that matters to you, so I always respect it.",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-18",
+          "text": "Morning, afternoon or late night: when do you feel sexiest?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-19",
+          "text": "What's a compliment about your body you'd love to hear more often?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-20",
+          "text": "If we had a whole weekend alone with no plans, what would you want to happen?",
+          "kind": "question"
+        },
+        {
+          "id": "after-dark-21",
+          "text": "Would you rather be teased for an hour or surprised with no warning?",
+          "kind": "wyr"
+        },
+        {
+          "id": "after-dark-22",
+          "text": "Would you rather plan a steamy night in detail or let it happen spontaneously?",
+          "kind": "wyr"
+        },
+        {
+          "id": "after-dark-23",
+          "text": "Would you rather give a full-body massage or receive one?",
+          "kind": "wyr"
+        },
+        {
+          "id": "after-dark-24",
+          "text": "Would you rather a candlelit bath together or a late-night shower together?",
+          "kind": "wyr"
+        },
+        {
+          "id": "after-dark-25",
+          "text": "Would you rather I take the lead tonight or you do?",
+          "kind": "wyr"
+        },
+        {
+          "id": "after-dark-26",
+          "text": "Would you rather try something new tonight or revisit an old favourite?",
+          "kind": "wyr"
+        },
+        {
+          "id": "after-dark-27",
+          "text": "Would you rather get a flirty voice note at work or a cheeky photo-free text?",
+          "kind": "wyr"
+        },
+        {
+          "id": "after-dark-28",
+          "text": "Would you rather a blindfold or a feather?",
+          "kind": "wyr"
+        },
+        {
+          "id": "after-dark-29",
+          "text": "Would you rather a hotel night away or a night in with the phones switched off?",
+          "kind": "wyr"
+        },
+        {
+          "id": "after-dark-30",
+          "text": "Would you rather slow dancing that leads somewhere, or skipping straight to the good bit?",
+          "kind": "wyr"
+        },
+        {
+          "id": "after-dark-31",
+          "text": "The moment I knew I really wanted you was…",
+          "kind": "finish"
+        },
+        {
+          "id": "after-dark-32",
+          "text": "Tonight I'd love you to…",
+          "kind": "finish"
+        },
+        {
+          "id": "after-dark-33",
+          "text": "Nothing turns me on more than when you…",
+          "kind": "finish"
+        },
+        {
+          "id": "after-dark-34",
+          "text": "My secret favourite thing about our sex life is…",
+          "kind": "finish"
+        },
+        {
+          "id": "after-dark-35",
+          "text": "If I could relive one night with you, it would be…",
+          "kind": "finish"
+        },
+        {
+          "id": "after-dark-36",
+          "text": "I feel most confident in bed when…",
+          "kind": "finish"
+        },
+        {
+          "id": "after-dark-37",
+          "text": "Something I'd love to try together is…",
+          "kind": "finish"
+        },
+        {
+          "id": "after-dark-38",
+          "text": "The best kiss you ever gave me was…",
+          "kind": "finish"
+        },
+        {
+          "id": "after-dark-39",
+          "text": "You drive me wild when you wear…",
+          "kind": "finish"
+        },
+        {
+          "id": "after-dark-40",
+          "text": "After tonight, I want us to…",
+          "kind": "finish"
+        }
+      ]
+    },
+    {
+      "id": "dare-night",
+      "name": "Dare Night",
+      "description": "Sexy dares for two consenting adults (18+). Every dare can be swapped or skipped, no questions asked.",
+      "audience": "adults",
+      "spice": 2,
+      "free": false,
+      "cards": [
+        {
+          "id": "dare-night-01",
+          "text": "Dare: kiss your partner somewhere other than their lips. They pick where next.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-02",
+          "text": "Dare: give your partner a two-minute shoulder massage. No talking.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-03",
+          "text": "Dare: whisper exactly what you want to do to them later.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-04",
+          "text": "Dare: take off one item of clothing. Your partner chooses which.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-05",
+          "text": "Dare: slow dance to the next song that plays, as close as you can.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-06",
+          "text": "Dare: kiss your partner for 30 seconds without using your hands.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-07",
+          "text": "Dare: describe the first time you saw them naked, in three words.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-08",
+          "text": "Dare: let your partner blindfold you for the next three cards.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-09",
+          "text": "Dare: trace a word on your partner's back with one finger. They guess it.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-10",
+          "text": "Dare: send your partner a text you'd never want your mum to read. Then put the phone away.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-11",
+          "text": "Dare: show your partner, without words, how you like to be kissed.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-12",
+          "text": "Dare: give your partner a compliment about their body for every finger on one hand.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-13",
+          "text": "Dare: kiss their neck slowly for one whole minute.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-14",
+          "text": "Dare: swap one item of clothing with your partner and wear it for the rest of the game.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-15",
+          "text": "Dare: sit on your partner's lap for the next card.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-16",
+          "text": "Dare: tell your partner the exact moment today you thought about them in a naughty way.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-17",
+          "text": "Dare: run an ice cube from their wrist to their shoulder.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-18",
+          "text": "Dare: lie together and breathe in sync for one minute, eyes closed.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-19",
+          "text": "Dare: your partner picks a song; you give them a 30-second dance just for them.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-20",
+          "text": "Dare: kiss every knuckle on one of your partner's hands.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-21",
+          "text": "Dare: tell your partner one thing you want them to do tonight. They can say yes, no or 'later'.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-22",
+          "text": "Dare: undo one button or zip on your partner's clothes, slowly.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-23",
+          "text": "Dare: nibble your partner's ear and say their name.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-24",
+          "text": "Dare: give a foot rub for as long as your partner keeps smiling.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-25",
+          "text": "Dare: hold eye contact for 60 seconds without laughing. If you laugh, you remove something.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-26",
+          "text": "Dare: put on a playlist for the rest of the night. Your partner gets veto power.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-27",
+          "text": "Dare: kiss your partner as if it's the last kiss before a long trip.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-28",
+          "text": "Dare: let your partner draw a heart anywhere on you with lipstick or a pen.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-29",
+          "text": "Dare: tell your partner your favourite part of their body, then kiss it.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-30",
+          "text": "Dare: move to the bedroom. The next card has to be read in there.",
+          "kind": "question"
+        },
+        {
+          "id": "dare-night-31",
+          "text": "Truth or dare: would you rather answer 'What's your wildest fantasy?' or kiss your partner wherever they point?",
+          "kind": "wyr"
+        },
+        {
+          "id": "dare-night-32",
+          "text": "Would you rather your partner undress you or watch you undress?",
+          "kind": "wyr"
+        },
+        {
+          "id": "dare-night-33",
+          "text": "Would you rather a massage with oil or a massage with kisses?",
+          "kind": "wyr"
+        },
+        {
+          "id": "dare-night-34",
+          "text": "Would you rather your partner plan a surprise for next weekend, or for tonight?",
+          "kind": "wyr"
+        },
+        {
+          "id": "dare-night-35",
+          "text": "Would you rather a slow strip tease from your partner or give one?",
+          "kind": "wyr"
+        },
+        {
+          "id": "dare-night-36",
+          "text": "Dare: finish this sentence while looking your partner in the eye: 'Right now I want…'",
+          "kind": "finish"
+        },
+        {
+          "id": "dare-night-37",
+          "text": "Dare: finish this one in a whisper: 'Later tonight, I'm going to…'",
+          "kind": "finish"
+        },
+        {
+          "id": "dare-night-38",
+          "text": "Dare: finish this one, then act it out: 'My favourite way to kiss you is…'",
+          "kind": "finish"
+        },
+        {
+          "id": "dare-night-39",
+          "text": "Dare: finish this one, then prove it: 'You can't resist it when I…'",
+          "kind": "finish"
+        },
+        {
+          "id": "dare-night-40",
+          "text": "Last card: 'The rest of tonight, we should…'",
           "kind": "finish"
         }
       ]

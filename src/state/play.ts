@@ -8,14 +8,17 @@ export const content = raw as Content;
 
 type PlayState = {
   favourites: string[];
+  /** @deprecated: the 18+ check now lives in the kit (useAdultAccess). Kept so old saves load. */
   adult: boolean;
+  /** Hide the 18+ decks from the deck list (discreet mode). */
+  hideAdult: boolean;
+  setHideAdult: (v: boolean) => void;
   progress: Record<string, number>; // deck → furthest card index reached
   completed: string[]; // deck ids finished at least once
   custom: Deck[];
   quizRuns: QuizRun[];
   players: string[];
   toggleFavourite: (cardId: string) => void;
-  confirmAdult: () => void;
   reach: (deckId: string, index: number, total: number) => boolean; // true when the deck was just completed
   addCustom: (name: string, cards: string[]) => string;
   removeCustom: (id: string) => void;
@@ -26,13 +29,14 @@ type PlayState = {
 export const usePlay = persisted<PlayState>('afterhours.play', 1, (set, get) => ({
   favourites: [],
   adult: false,
+  hideAdult: false,
+  setHideAdult: (hideAdult) => set({ hideAdult }),
   progress: {},
   completed: [],
   custom: [],
   quizRuns: [],
   players: ['', ''],
   toggleFavourite: (id) => set((s) => ({ favourites: s.favourites.includes(id) ? s.favourites.filter((x) => x !== id) : [...s.favourites, id] })),
-  confirmAdult: () => set({ adult: true }),
   reach: (deckId, index, total) => {
     const s = get();
     const furthest = Math.max(s.progress[deckId] ?? 0, index);
@@ -55,7 +59,11 @@ export function allDecks(custom: Deck[]): Deck[] {
   return [...content.decks, ...custom];
 }
 
-export function favouritesDeck(ids: string[], custom: Deck[]): Deck {
-  const cards = allDecks(custom).flatMap((d) => d.cards).filter((c) => ids.includes(c.id));
+/** Hearted cards. Cards from 18+ decks only appear when the person may open them right now. */
+export function favouritesDeck(ids: string[], custom: Deck[], adultOk = false): Deck {
+  const cards = allDecks(custom)
+    .filter((d) => d.spice < 2 || adultOk)
+    .flatMap((d) => d.cards)
+    .filter((c) => ids.includes(c.id));
   return { id: 'favourites', name: 'Favourites', description: 'Cards you hearted', audience: 'anyone', spice: 0, free: true, custom: true, cards };
 }
