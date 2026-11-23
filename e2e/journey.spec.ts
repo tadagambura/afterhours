@@ -108,3 +108,19 @@ test('Together: tic-tac-toe and four in a row on one phone, wins tallied; calend
   await page.getByRole('tab', { name: /Together/ }).click();
   await expect(page.getByTestId('plan-Date night: tapas')).toContainText('19:30');
 });
+
+test('learning cards: 20 free, sourced, readable, the 21st is Premium', async ({ page }) => {
+  await page.goto('/');
+  await finishIntro(page);
+  await page.getByRole('tab', { name: /Quizzes/ }).click();
+  await expect(page.getByTestId('cards-progress')).toContainText('0 of 30 cards read · 20 free');
+  await page.getByTestId('card-c01').click();
+  await expect(page.getByTestId('card-sheet')).toContainText('Source:');
+  const quiz = page.getByTestId('card-quiz-0');
+  if (await quiz.count()) await quiz.click();
+  else await page.getByTestId('card-done').click();
+  await page.getByTestId('sheet-close').click();
+  await expect(page.getByTestId('cards-progress')).toContainText('1 of 30');
+  await page.getByTestId('card-c21').click();
+  await expect(page.getByTestId('paywall')).toBeVisible();
+});
