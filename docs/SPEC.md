@@ -1,6 +1,6 @@
 # AfterHours: Spec
 
-**Better questions for couples and friends** · #3 of 16 · Wave 1: Daily keepers · Used: Weekly · Easy, content-heavy · Revenue potential: Medium–high · Social, Play & Style · Source: ChatGPT + Perplexity (absorbs PickOne and TypeMe)
+**Better questions for couples and friends** · #3 of 15 · Wave 1: Daily keepers · Used: Weekly · Easy, content-heavy · Revenue potential: Medium–high · Social, Play & Style · Source: ChatGPT + Perplexity (absorbs PickOne and TypeMe)
 
 ## One-liner
 
@@ -18,7 +18,7 @@ Swipeable question decks for first dates, couples, long-distance relationships, 
 2. Free starter decks: first date, couples, friends, party
 3. Favourites and shuffle
 4. Custom decks
-5. PickOne wheel: spin for who goes first, a random question or a dare
+5. AfterHours wheel: spin for who goes first, a random question or a dare
 6. Compatibility quizzes with shareable couple and friend-group results
 
 ## Not in MVP
