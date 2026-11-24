@@ -12,6 +12,8 @@ import { Button, Card, H1, Label, Muted, ProgressBar, Row, Screen, Section, Shee
 import { canOpen, cardOfTheDay, type Deck } from '@/domain/play';
 import { brand, FREE_CUSTOM_DECKS } from '@/brand';
 import { content, usePlay } from '@/state/play';
+import '@/arcade';
+import { ArcadeEntry } from '@/kit/arcade/screens';
 
 const EMOJI: Record<string, string> = { 'first-date': '🍷', couples: '💞', friends: '🍕', party: '🎉', 'long-distance': '✈️', 'deep-talk': '🌙', 'road-trip': '🚗', family: '🍝', spicy: '🔥' };
 
@@ -114,6 +116,7 @@ export default function Decks() {
       />
       <PaywallSheet visible={!!paywall} onClose={() => setPaywall(null)} reason={paywall ?? undefined} />
       <View style={{ height: radius }} />
+      <ArcadeEntry />
     </Screen>
   );
 }

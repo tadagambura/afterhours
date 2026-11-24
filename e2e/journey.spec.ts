@@ -70,7 +70,8 @@ test('an adult date of birth opens the explicit deck; no sharing; discreet mode 
   await page.getByTestId('age-month').fill('02');
   await page.getByTestId('age-year').fill('1994');
   await page.getByTestId('age-confirm').click();
-  await expect(page.getByTestId('card-text')).toContainText('Dare');
+  await expect(page.getByTestId('card-text')).toBeVisible();
+  await expect(page).toHaveURL(/deck\/dare-night/);
   await expect(page.getByLabel('Share this question')).toHaveCount(0);
   await page.goto('/settings');
   await page.getByTestId('hide-adult').click();
