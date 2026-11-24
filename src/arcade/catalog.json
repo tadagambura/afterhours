@@ -141,7 +141,7 @@
       "name": "Deep Talk Roulette",
       "emoji": "🌙",
       "mechanic": "spinner",
-      "tier": "arcade_subscription",
+      "tier": "arcade",
       "how": "Spin for a deeper question. Take your time; skip anything that doesn't feel right.",
       "teaches": "Big conversations build closeness. Go gently.",
       "seconds": 45,
