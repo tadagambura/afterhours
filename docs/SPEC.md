@@ -33,7 +33,9 @@ Swipeable question decks for first dates, couples, long-distance relationships, 
 |---|---|
 | Free | Starter decks, with ads |
 | Paid packs | £1.99–£4.99 each |
-| Subscription | £24.99/year (shown first) or £3.49/month: every deck plus a new pack monthly |
+| Premium | £34.99/year (shown first) or £3.49/month: every deck plus a new pack monthly, every Arcade game in the app |
+| Arcade games | £0.99 each, kept forever, or every game in the app with Premium |
+| KC All Access | £25 once (every Arcade game in every KC app, kept forever) plus £7.99/month or £79.99/year (Premium in every KC app). Needs a free KC account. |
 
 Prices are starting points; test before committing. **Portfolio premium promise:** free has ads; the moment you pay you get no ads, cloud backup and storage, and sync across your devices, plus this app's extras.
 
