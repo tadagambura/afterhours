@@ -2,6 +2,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import { router } from 'expo-router';
 import { useState } from 'react';
 import { Text, View } from 'react-native';
+import { AdBanner } from '@/kit/ads';
 import { todayKey } from '@/kit/dates';
 import { AgeCheckSheet, useAdultAccess } from '@/kit/AgeGate';
 import { PaywallSheet } from '@/kit/Paywall';
@@ -51,7 +52,7 @@ export default function Decks() {
   };
 
   return (
-    <Screen testID="decks">
+    <Screen testID="decks" banner={<AdBanner placement="decks_banner" />}>
       <H1>AfterHours</H1>
       <Card tone="primary" testID="tonight">
         <Label color={c.primaryText}>{`Tonight's card · ${tonight.deck.name}`}</Label>
