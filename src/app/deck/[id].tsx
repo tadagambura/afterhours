@@ -1,6 +1,7 @@
 import { router, Stack as RouterStack, useLocalSearchParams } from 'expo-router';
-import { useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Animated, PanResponder, Text } from 'react-native';
+import { useAdBreak } from '@/kit/ads';
 import { track } from '@/kit/analytics';
 import { useCelebrate } from '@/kit/celebrate';
 import { useFeedback } from '@/kit/feedback';
@@ -12,6 +13,9 @@ import { canOpen, kindLabel, shuffle } from '@/domain/play';
 import { allDecks, favouritesDeck, usePlay } from '@/state/play';
 import { useAdultAccess } from '@/kit/AgeGate';
 import { brand } from '@/brand';
+
+/** An interstitial may show when someone leaves a deck after at least this many cards (frequency-capped). */
+const BREAK_AFTER_CARDS = 10;
 
 export default function PlayDeck() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -26,6 +30,15 @@ export default function PlayDeck() {
   const [seed] = useState(() => Date.now() % 100000);
   const [i, setI] = useState(0);
   const x = useRef(new Animated.Value(0)).current;
+  const adBreak = useAdBreak();
+  // Cards moved on to in this visit. Leaving a deck after a proper session is the natural break.
+  const answered = useRef(0);
+  useEffect(
+    () => () => {
+      if (answered.current >= BREAK_AFTER_CARDS) void adBreak('deck_break');
+    },
+    [adBreak],
+  );
 
   const cards = useMemo(() => (deck ? (shuffled ? shuffle(deck.cards, seed) : deck.cards) : []), [deck, shuffled, seed]);
   const go = (n: number) => {
@@ -35,7 +48,10 @@ export default function PlayDeck() {
       track('milestone_reached', { what: 'deck_complete', deck: deck.custom ? 'custom' : deck.id });
       celebrate({ scene: 'deck-done', emoji: '🎡', title: 'Deck complete!', body: 'THE WHEEL HAS SPOKEN: time for another deck.' });
     }
-    if (n > i) track('core_action_completed', { what: 'card_answered', deck: deck?.custom ? 'custom' : (deck?.id ?? '') });
+    if (n > i) {
+      answered.current++;
+      track('core_action_completed', { what: 'card_answered', deck: deck?.custom ? 'custom' : (deck?.id ?? '') });
+    }
   };
 
   const pan = useRef(
