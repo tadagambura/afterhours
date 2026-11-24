@@ -1,6 +1,7 @@
 import { router, Stack as RouterStack, useLocalSearchParams } from 'expo-router';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Pressable, Text } from 'react-native';
+import { useAdBreak } from '@/kit/ads';
 import { track } from '@/kit/analytics';
 import { useCelebrate } from '@/kit/celebrate';
 import { shareText } from '@/kit/share';
@@ -17,6 +18,18 @@ export default function QuizScreen() {
   const { c, radius } = useTheme();
   const celebrate = useCelebrate();
   const [phase, setPhase] = useState<Phase>('names');
+  const adBreak = useAdBreak();
+  // After the reveal is the natural break: on Play again, or when leaving.
+  const revealed = useRef(false);
+  useEffect(() => {
+    revealed.current = phase === 'reveal';
+  }, [phase]);
+  useEffect(
+    () => () => {
+      if (revealed.current) void adBreak('quiz_break');
+    },
+    [adBreak],
+  );
   const [a, setA] = useState('');
   const [b, setB] = useState('');
   const [answersA, setAnswersA] = useState<number[]>([]);
@@ -102,7 +115,16 @@ export default function QuizScreen() {
             );
           })}
           <Button title="Share our score" icon="share-outline" onPress={() => shareText(`We matched ${score.matches} of ${score.total} on "${quiz.name}" in AfterHours. ${verdict(score.pct)}`, 'quiz')} />
-          <Button title="Play again" variant="secondary" onPress={() => { setAnswersA([]); setAnswersB([]); setPhase('a'); }} />
+          <Button
+            title="Play again"
+            variant="secondary"
+            onPress={async () => {
+              await adBreak('quiz_break');
+              setAnswersA([]);
+              setAnswersB([]);
+              setPhase('a');
+            }}
+          />
         </Stack>
       ) : null}
     </Screen>
