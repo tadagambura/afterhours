@@ -1,0 +1,53 @@
+{
+ "guess-my-answer": {
+  "done": "We compared answers!",
+  "note": "Score a point for every right guess. Swap who guesses each spin.",
+  "prompts": [
+   {
+    "text": "What would I order at a new restaurant?"
+   },
+   {
+    "text": "My dream holiday, in one place?"
+   },
+   {
+    "text": "What do I secretly find hardest about mornings?"
+   },
+   {
+    "text": "My go-to karaoke song?"
+   },
+   {
+    "text": "Which friend would I call in a crisis?"
+   },
+   {
+    "text": "What's my comfort film?"
+   },
+   {
+    "text": "What would I do with a free Saturday?"
+   },
+   {
+    "text": "Which chore do I hate most?"
+   },
+   {
+    "text": "What smell takes me back to childhood?"
+   },
+   {
+    "text": "What would I rescue first in a fire (people and pets are safe)?"
+   },
+   {
+    "text": "What's my biggest pet peeve?"
+   },
+   {
+    "text": "Where would I live if money was no object?"
+   },
+   {
+    "text": "What am I most proud of this year?"
+   },
+   {
+    "text": "Sweet or savoury breakfast?"
+   },
+   {
+    "text": "What would my superpower be?"
+   }
+  ]
+ }
+}

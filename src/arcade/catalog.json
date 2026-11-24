@@ -1,0 +1,155 @@
+{
+  "app": "afterhours",
+  "title": "Connection Arcade",
+  "emoji": "❤️",
+  "currency": {
+    "name": "Hearts",
+    "one": "heart",
+    "emoji": "❤️"
+  },
+  "unlocks": "themed question decks, wheel designs and conversation categories",
+  "games": [
+    {
+      "id": "guess-my-answer",
+      "name": "Guess My Answer",
+      "emoji": "🔮",
+      "mechanic": "spinner",
+      "tier": "free",
+      "how": "Spin a question. One of you guesses how the other will answer, then reveal.",
+      "teaches": "Curiosity about each other keeps connection alive.",
+      "seconds": 45,
+      "flagship": true,
+      "pack": {
+        "file": "afterhours/guess-my-answer.35b179597b.json",
+        "sha256": "35b179597b284421e015b9a9df982157f6c9a25d9cc4605f3f9b0bd8d329af2c",
+        "bytes": 821
+      }
+    },
+    {
+      "id": "tic-tac-toe",
+      "name": "Tic-Tac-Toe",
+      "emoji": "⭕",
+      "mechanic": "route",
+      "tier": "free",
+      "how": "Pass the phone and play noughts and crosses.",
+      "teaches": "A two-minute warm-up that gets you both laughing.",
+      "seconds": 60,
+      "route": "/game/ttt",
+      "pack": null
+    },
+    {
+      "id": "four-in-a-row",
+      "name": "Four in a Row",
+      "emoji": "🔴",
+      "mechanic": "route",
+      "tier": "free",
+      "how": "Drop discs, line up four. Pass and play.",
+      "teaches": "Friendly rivalry, the healthy kind.",
+      "seconds": 60,
+      "route": "/game/c4",
+      "pack": null
+    },
+    {
+      "id": "how-well",
+      "name": "How Well Do You Know Me?",
+      "emoji": "🧠",
+      "mechanic": "route",
+      "tier": "free",
+      "how": "Answer privately, then compare scores.",
+      "teaches": "Learn the small things that make your person them.",
+      "seconds": 60,
+      "route": "/quizzes",
+      "pack": null
+    },
+    {
+      "id": "love-match",
+      "name": "Love Language Match",
+      "emoji": "💌",
+      "mechanic": "memory",
+      "tier": "arcade",
+      "how": "Match each way of showing love to an everyday example.",
+      "teaches": "People feel loved in different ways. Knowing your person's way changes everything.",
+      "seconds": 45,
+      "pack": {
+        "file": "afterhours/love-match.d2d3145052.json",
+        "sha256": "d2d3145052af042fc68c0de7e3c67f65ab2fe3474f764fe2e3c269fdb6a637f6",
+        "bytes": 259
+      }
+    },
+    {
+      "id": "would-you-rather",
+      "name": "Would You Rather?",
+      "emoji": "⚖️",
+      "mechanic": "spinner",
+      "tier": "arcade",
+      "how": "Spin a dilemma, both answer, then defend your choice.",
+      "teaches": "Silly dilemmas reveal real values.",
+      "seconds": 45,
+      "pack": {
+        "file": "afterhours/would-you-rather.b24afa499b.json",
+        "sha256": "b24afa499ba15ba34959be1a30bf3cde3885c9580f16b5fcd985640b5e563cee",
+        "bytes": 782
+      }
+    },
+    {
+      "id": "finish-sentence",
+      "name": "Finish the Sentence",
+      "emoji": "✍️",
+      "mechanic": "spinner",
+      "tier": "arcade",
+      "how": "Spin a sentence starter and finish it out loud.",
+      "teaches": "Saying the nice thing out loud is a habit worth building.",
+      "seconds": 45,
+      "pack": {
+        "file": "afterhours/finish-sentence.5ed4065883.json",
+        "sha256": "5ed40658839863904ecf278a580e634dca00e8c83afe2cc046971aebfa3e6a03",
+        "bytes": 501
+      }
+    },
+    {
+      "id": "two-truths",
+      "name": "Two Truths and a Lie",
+      "emoji": "🤥",
+      "mechanic": "spinner",
+      "tier": "arcade",
+      "how": "Spin a topic. Say two true things and one lie about it. They guess the lie.",
+      "teaches": "You always have more to learn about each other.",
+      "seconds": 45,
+      "pack": {
+        "file": "afterhours/two-truths.fc7a714db8.json",
+        "sha256": "fc7a714db85838964ad8fc9cd2a88f5bcdfacaead34d349198c52b431c7bbcfd",
+        "bytes": 469
+      }
+    },
+    {
+      "id": "this-or-that",
+      "name": "This or That",
+      "emoji": "🔀",
+      "mechanic": "spinner",
+      "tier": "arcade",
+      "how": "Rapid-fire choices. Pick fast, compare after.",
+      "teaches": "Quick, light, and surprisingly revealing.",
+      "seconds": 45,
+      "pack": {
+        "file": "afterhours/this-or-that.6735a78d1c.json",
+        "sha256": "6735a78d1cf9afd2f2c3fbacb6144859f5575052c872f6408744849073f7e0cb",
+        "bytes": 401
+      }
+    },
+    {
+      "id": "deep-talk-roulette",
+      "name": "Deep Talk Roulette",
+      "emoji": "🌙",
+      "mechanic": "spinner",
+      "tier": "arcade_subscription",
+      "how": "Spin for a deeper question. Take your time; skip anything that doesn't feel right.",
+      "teaches": "Big conversations build closeness. Go gently.",
+      "seconds": 45,
+      "pack": {
+        "file": "afterhours/deep-talk-roulette.59041ad251.json",
+        "sha256": "59041ad251f294564bf7c3f1bf985df2614286ecb0adb813ecb0e2514a04bc90",
+        "bytes": 612
+      }
+    }
+  ]
+}
